@@ -7,12 +7,13 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 22:45 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first after the 22:31 pulse. `x_get_me` verified @NOVAHOLD_ING with tweet_count 19, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 22:31 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` returned 0 posts/signals. The 22:01 research-before-outreach post `2106142620003045605`, the 21:01 VISIBILITY education post `2106127481069527390`, and the 18:00 SCORE post `2106082102340948246` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Public posting was held because the latest X post was only ~44 minutes old, same-day X CTA volume remains high, reach/signals remain zero, and LinkedIn same-day cap remained reached. Safe fallback: updated `start-here.html` to foreground `profile-conversion-kit.html` as the first route for empty/default or non-converting social profiles, while keeping Research, VISIBILITY, SCORE, FILTER, GROWTH, PROFILE, PROOF, SPRINT, and SYSTEM qualification-first. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 23:15 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first after the 23:01 profile-funnel education post. `x_get_me` verified @NOVAHOLD_ING with tweet_count 20, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 23:00 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` returned 0 posts/signals. The 23:01 profile-funnel post `2106157650312401185`, 22:01 research-before-outreach post `2106142620003045605`, and 21:01 VISIBILITY education post `2106127481069527390` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Public posting was held because the latest X post was only about 14 minutes old, same-day X content/CTA volume remains high, reach/signals remain zero, and LinkedIn same-day cap remained reached. Safe fallback: added `profile-funnel-scorecard.html`, updated `start-here.html` to foreground Profile Funnel Scorecard before Profile Kit/Research/VISIBILITY/SCORE/FILTER routing, and updated `sitemap.xml`. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
 - NOVA Social Profile Conversion Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html
+- NOVA Profile Funnel Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html
 - NOVA Research-before-Outreach Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/research-before-outreach.html
 - NOVA AI Visibility Snapshot: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-snapshot.html
 - NOVA VISIBILITY Snapshot Intake + Fit Router: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-intake.html
@@ -35,6 +36,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - index.html
 - start-here.html
 - profile-conversion-kit.html
+- profile-funnel-scorecard.html
 - research-before-outreach.html
 - visibility-snapshot.html
 - visibility-intake.html
@@ -62,6 +64,9 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-02 23:15 profile-funnel-scorecard.html profile funnel scorecard: ed4fe0170cdec3072b7085f67da5cbd03961736d
+- 2026-10-02 23:15 sitemap.xml profile funnel route update: 438bd235b4c2f7f70c18710dbe1655f96857ea97
+- 2026-10-02 23:15 start-here.html profile funnel routing update: 184c00ee21cbb4aaf7b1507cee00bd0b4c112e25
 - 2026-10-02 22:45 start-here.html profile conversion route integration: 56dda53e33f69c3f54e5572f3585bee3d8b24511
 - 2026-10-02 22:31 profile-conversion-kit.html social profile conversion kit: f3eb51e0c7d3b54b8faded8a73324b895e7f7abb
 - 2026-10-02 22:31 sitemap.xml profile conversion kit route update: 7e8b27e2fc1050f04cbcd1cf736be56abae51ed0
