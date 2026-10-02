@@ -7,10 +7,11 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 15:30 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 15:00 TEMPLATES X validation post, used the safe fallback to package NOVA Growth Sprint fulfillment into a delivery-pack route, uploaded `growth-sprint-delivery.html`, linked it from `growth-sprint.html`, and added the delivery page to the sitemap. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 15:45 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 15:00 TEMPLATES X validation post, used the safe fallback to build a compact social `start-here.html` route hub for X/LinkedIn bio and pinned-post traffic, and added it to the sitemap. This reduces the X empty-bio/profile-edit blocker by creating a single routing page for SCORE, ROUTE, GROWTH, PROFILE, PROOF, TEMPLATES, SIGNAL, FILTER, BUILDER, and SPRINT. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
+- Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
 - NOVA Growth Sprint: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint.html
 - NOVA Growth Sprint Delivery Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint-delivery.html
 - Proof-to-Pipeline Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html
@@ -25,6 +26,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Files deployed / maintained
 - index.html
+- start-here.html
 - growth-sprint.html
 - growth-sprint-delivery.html
 - proof-to-pipeline.html
@@ -46,9 +48,11 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- start-here.html: 86a5efded68018274f5841fd85f8b7dc1a47ca40
+- sitemap.xml start-here route update: a8660a782c5de5f596b874c6334faf5f688459bb
 - growth-sprint-delivery.html: 8f7191c5015dec0f2f8fbf8b11db253d183b16cf
 - growth-sprint.html delivery-pack link update: 0ed96c233b7456594e6670bea789c0d20096df33
-- sitemap.xml delivery route update: 2b177f983a545206a23ccb679d0fd15ffff32531
+- previous sitemap.xml delivery route update: 2b177f983a545206a23ccb679d0fd15ffff32531
 - previous homepage/index.html with GROWTH route: 1678a9f4a6307f9543a4cc0f50299ebccd14f797
 - previous growth-sprint.html page: 1746ed06b7bcbd40463ff0c83df95007063ebdfb
 - proof-to-pipeline.html: 027b0777885852253e98afcfedc42e72dafd89dd
