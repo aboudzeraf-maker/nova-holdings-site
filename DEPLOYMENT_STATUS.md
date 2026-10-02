@@ -7,14 +7,14 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 22:01 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 18 before posting, followers_count 0, following_count 0, and empty profile description. Mentions from 21:45 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING` and `to:NOVAHOLD_ING` returned 0 posts/signals. The 21:01 VISIBILITY education post `2106127481069527390` and the 18:00 SCORE post `2106082102340948246` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. LinkedIn was held because same-day cap remained reached. X cadence had a 60+ minute gap, so a value-first non-CTA research-before-outreach education post was published instead of another hard keyword CTA. X post ID: `2106142620003045605`; post-check showed tweet_count 19 and 0 initial engagement. Safe asset expansion: added `research-before-outreach.html` as the ethical acquisition checklist route and updated `sitemap.xml`. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 22:15 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first after the 22:01 research-before-outreach post. `x_get_me` verified @NOVAHOLD_ING with tweet_count 19, followers_count 0, following_count 0, and empty profile description. Mentions from 22:00 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` returned 0 posts/signals. The 22:01 research-before-outreach post `2106142620003045605`, the 21:01 VISIBILITY education post `2106127481069527390`, and the 18:00 SCORE post `2106082102340948246` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Public posting was held because the latest X post was only ~14 minutes old and LinkedIn same-day cap remained reached. Safe fallback: `start-here.html` was updated to foreground the Research-before-Outreach Checklist as an owned social route before SCORE, PROFILE, GROWTH, or SPRINT. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
+- NOVA Research-before-Outreach Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/research-before-outreach.html
 - NOVA AI Visibility Snapshot: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-snapshot.html
 - NOVA VISIBILITY Snapshot Intake + Fit Router: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-intake.html
-- NOVA Research-before-Outreach Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/research-before-outreach.html
 - NOVA Growth Sprint: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint.html
 - NOVA Growth Sprint Delivery Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint-delivery.html
 - Proof-to-Pipeline Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html
@@ -33,9 +33,9 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 ## Files deployed / maintained
 - index.html
 - start-here.html
+- research-before-outreach.html
 - visibility-snapshot.html
 - visibility-intake.html
-- research-before-outreach.html
 - growth-sprint.html
 - growth-sprint-delivery.html
 - proof-to-pipeline.html
@@ -60,6 +60,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-02 22:15 start-here.html research-before-outreach routing update: e839a0f72acb65d3210766d3ca62379dcf90c9ce
 - 2026-10-02 22:01 research-before-outreach.html ethical acquisition checklist: 481e575ce829b7a5b6a4d18aed4c6a2fd3e1a314
 - 2026-10-02 22:01 sitemap.xml research-before-outreach route update: d8cc1d7a42cd523f04ea002d002459d2d40c89bf
 - 2026-10-02 21:30 start-here.html VISIBILITY intake routing update: 594f23766ebdf861a3cedeb0c0c4749fe73dcd6e
