@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 16:30 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 16:00 GROWTH X validation post, used the safe fallback to publish `filter-validation.html` as the FILTER validation campaign pack, and added it to `sitemap.xml`. This strengthens the Buyer Fit Filter route before the next safe external FILTER test, with first-response, routing, dashboard, and no-payment-before-fit boundaries. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 16:45 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 16:00 GROWTH X validation post, verified X account access through `x_get_me`, and used the safe fallback to strengthen owned conversion paths instead of adding another public post. `start-here.html` now routes social visitors more directly to FILTER, GROWTH, PROFILE, PROOF, TEMPLATES, SIGNAL, BUILDER, and delivery assets before any payment conversation. `index.html` now foregrounds FILTER as the lead-quality qualification route and links the FILTER validation campaign pack. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -50,9 +50,11 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-02 16:45 homepage/index.html FILTER + Start Here routing refresh: 0a110a6fe83bec35188287c6fde84a4676d1c322
+- 2026-10-02 16:45 start-here.html FILTER validation route refresh: 42aec4e2f039c1c609e82b683bb987c463129fe0
 - filter-validation.html: 636eaf725ca8c7e57bbcf7d69f7257320478e496
 - sitemap.xml filter-validation route update: 765d5c99144d469e9c53964193051471fb591047
-- start-here.html: 86a5efded68018274f5841fd85f8b7dc1a47ca40
+- previous start-here.html: 86a5efded68018274f5841fd85f8b7dc1a47ca40
 - previous sitemap.xml start-here route update: a8660a782c5de5f596b874c6334faf5f688459bb
 - growth-sprint-delivery.html: 8f7191c5015dec0f2f8fbf8b11db253d183b16cf
 - growth-sprint.html delivery-pack link update: 0ed96c233b7456594e6670bea789c0d20096df33
