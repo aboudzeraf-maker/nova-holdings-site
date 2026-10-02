@@ -7,10 +7,11 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 14:15 UTC CEO Growth Pulse: updated the homepage into the current portfolio routing hub for **SCORE → ROUTE → PROFILE → SPRINT → SYSTEM**, linked the active product pages, emphasized qualification before payment language, and held additional X/LinkedIn posting for cadence safety after the 14:00 PROFILE validation post.
+2026-10-02 14:30 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 14:00 PROFILE validation post, upgraded the PROOF trust-conversion route into a customer-facing delivery pack, uploaded `proof-to-pipeline.html`, and added the PROOF path to `sitemap.xml`. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
+- Proof-to-Pipeline Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html
 - Signal Brief: https://aboudzeraf-maker.github.io/nova-holdings-site/signal-brief.html
 - Growth Templates Membership: https://aboudzeraf-maker.github.io/nova-holdings-site/templates.html
 - Buyer Fit Filter Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-kit.html
@@ -22,6 +23,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Files deployed / maintained
 - index.html
+- proof-to-pipeline.html
 - templates.html
 - signal-brief.html
 - filter-kit.html
@@ -40,9 +42,10 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- proof-to-pipeline.html: 027b0777885852253e98afcfedc42e72dafd89dd
+- sitemap.xml: 9ec7879b46871edeb3a0f91c6a7fce41a5dcb519
 - homepage/index.html: fdf83556a51b51a7fc8e04a0c79a1df11179df41
 - profile-audit-delivery.html: 58cf89e2a9ded3e33b48b8fd96a1dba3c53492b1
-- sitemap.xml: 52410bc1109209f6c1a577de3c7737d9e85415ab
 - profile-audit.html: f8057c41597cfe2c80102019f2586ed0f680a42c
 - visual-launch-kit.html: e63be80f57055afd4db536df4f035b86187b3fb7
 - builder-validation.html: a4a5eba2a3340045cd5dc10e18bdad191d8c8c28
