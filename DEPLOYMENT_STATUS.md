@@ -7,17 +7,19 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 12:15 UTC CEO Growth Pulse: added the NOVA Growth Templates Membership delivery page as a recurring low-ticket product route, after holding immediate social posting for safe cadence following the 12:00 SIGNAL X post.
+2026-10-02 12:30 UTC CEO Growth Pulse: added the NOVA Buyer Fit Filter Kit page as the **FILTER** qualification route after holding social posting for safe cadence following the 12:00 SIGNAL X post.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Signal Brief: https://aboudzeraf-maker.github.io/nova-holdings-site/signal-brief.html
 - Growth Templates Membership: https://aboudzeraf-maker.github.io/nova-holdings-site/templates.html
+- Buyer Fit Filter Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-kit.html
 
 ## Files deployed / maintained
 - index.html
 - templates.html
 - signal-brief.html
+- filter-kit.html
 - robots.txt
 - sitemap.xml
 - .nojekyll
@@ -26,6 +28,10 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - vercel.json
 - .github/workflows/pages.yml
 - DEPLOYMENT_STATUS.md
+
+## Latest deployment commits
+- filter-kit.html: b79bbfc387ff29a086b62338778aee6b013162d8
+- sitemap.xml: 288fe036ef1ce7b50a578212e1ade6e27bbcc38d
 
 ## Status
 The production website files are uploaded to the `main` branch.
