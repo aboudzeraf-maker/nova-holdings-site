@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 16:45 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 16:00 GROWTH X validation post, verified X account access through `x_get_me`, and used the safe fallback to strengthen owned conversion paths instead of adding another public post. `start-here.html` now routes social visitors more directly to FILTER, GROWTH, PROFILE, PROOF, TEMPLATES, SIGNAL, BUILDER, and delivery assets before any payment conversation. `index.html` now foregrounds FILTER as the lead-quality qualification route and links the FILTER validation campaign pack. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 17:30 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 17:00 FILTER X validation post, verified X account access through `x_get_me`, and used the safe fallback to strengthen FILTER response handling instead of adding another public post. Added `filter-reply-handling.html` as the FILTER reply-handling playbook route and updated `sitemap.xml`. This supports confirmed FILTER replies with a first response, Ready/Nurture/Clarify/No Fit scoring, route matrix, CRM/dashboard rules, and no-payment-before-fit boundaries. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -19,6 +19,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Growth Templates Membership: https://aboudzeraf-maker.github.io/nova-holdings-site/templates.html
 - Buyer Fit Filter Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-kit.html
 - Buyer Fit Filter Validation Campaign Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-validation.html
+- Buyer Fit Filter Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-reply-handling.html
 - AI Offer Builder Prototype: https://aboudzeraf-maker.github.io/nova-holdings-site/builder.html
 - AI Offer Builder Validation Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/builder-validation.html
 - Visual Launch Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/visual-launch-kit.html
@@ -35,6 +36,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - signal-brief.html
 - filter-kit.html
 - filter-validation.html
+- filter-reply-handling.html
 - builder.html
 - builder-validation.html
 - visual-launch-kit.html
@@ -50,10 +52,12 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-02 17:30 filter-reply-handling.html FILTER reply-handling playbook route: d42626b4a71a47472dd1f85bbf9d58a6fc06a3d1
+- 2026-10-02 17:30 sitemap.xml FILTER reply-handling route update: ed0c292db5ec30a6d6ee45592831dcdb51e0214e
 - 2026-10-02 16:45 homepage/index.html FILTER + Start Here routing refresh: 0a110a6fe83bec35188287c6fde84a4676d1c322
 - 2026-10-02 16:45 start-here.html FILTER validation route refresh: 42aec4e2f039c1c609e82b683bb987c463129fe0
 - filter-validation.html: 636eaf725ca8c7e57bbcf7d69f7257320478e496
-- sitemap.xml filter-validation route update: 765d5c99144d469e9c53964193051471fb591047
+- previous sitemap.xml filter-validation route update: 765d5c99144d469e9c53964193051471fb591047
 - previous start-here.html: 86a5efded68018274f5841fd85f8b7dc1a47ca40
 - previous sitemap.xml start-here route update: a8660a782c5de5f596b874c6334faf5f688459bb
 - growth-sprint-delivery.html: 8f7191c5015dec0f2f8fbf8b11db253d183b16cf
