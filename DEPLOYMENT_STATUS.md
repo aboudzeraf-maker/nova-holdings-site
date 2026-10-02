@@ -7,12 +7,13 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 19:45 UTC CEO Growth Pulse: X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 17, followers_count 0, following_count 0, and empty profile description. Mentions from 19:30 UTC returned 0 confirmed signals. Direct account searches for `to:NOVAHOLD_ING` and `@NOVAHOLD_ING` returned 0 posts; a broad ungrouped CTA keyword search returned irrelevant global posts and was not counted as NOVA signal. Latest tracked SCORE, FILTER, GROWTH, TEMPLATES, and PROFILE X posts still showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes. Public X/LinkedIn posting was held because same-day CTA volume is high and blind posting into zero reach is lower-leverage than owned-route improvement. Safe fallback executed: integrated `VISIBILITY` into the homepage and Social Start Here hub so the AI Visibility Snapshot has a clearer owned route before the next safe LinkedIn/X validation window. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 21:16 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 18, followers_count 0, following_count 0, and empty profile description. Mentions from 21:00 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING` and `NOVAHOLD_ING` returned 0 posts/signals. The latest value-first VISIBILITY education post `2106127481069527390` showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Public X/LinkedIn posting was held because the latest value-first post was only ~15 minutes old, same-day X CTA volume is high, and LinkedIn had already reached the same-day safe cap. Safe fallback executed: built and uploaded `visibility-intake.html`, a no-guarantee VISIBILITY Snapshot Intake + Fit Router for confirmed VISIBILITY replies/comments/DMs before routing prospects to PROFILE, PROOF, KIT, SPRINT, GROWTH, or SYSTEM. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
 - NOVA AI Visibility Snapshot: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-snapshot.html
+- NOVA VISIBILITY Snapshot Intake + Fit Router: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-intake.html
 - NOVA Growth Sprint: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint.html
 - NOVA Growth Sprint Delivery Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint-delivery.html
 - Proof-to-Pipeline Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html
@@ -32,6 +33,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - index.html
 - start-here.html
 - visibility-snapshot.html
+- visibility-intake.html
 - growth-sprint.html
 - growth-sprint-delivery.html
 - proof-to-pipeline.html
@@ -56,6 +58,8 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-02 21:16 visibility-intake.html VISIBILITY intake + fit router: c24098c6d1bc4a500de4d69f407bac3d5b0d048b
+- 2026-10-02 21:16 sitemap.xml VISIBILITY intake route update: d5753795d0d432b045e5388621ebdeaa750fe6e7
 - 2026-10-02 19:45 homepage/index.html VISIBILITY route integration: dafa472b36ba868a724ede654b37faeebb0feae5
 - 2026-10-02 19:45 start-here.html VISIBILITY route integration: 36f43459a569e1a559d745f9cfd9cd3799936280
 - 2026-10-02 19:30 visibility-snapshot.html AI Visibility Snapshot route: b38940ff181adb2ebdea101198b33cb96731725f
