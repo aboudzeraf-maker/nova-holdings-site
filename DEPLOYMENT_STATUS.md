@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 14:30 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 14:00 PROFILE validation post, upgraded the PROOF trust-conversion route into a customer-facing delivery pack, uploaded `proof-to-pipeline.html`, and added the PROOF path to `sitemap.xml`. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 14:45 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 14:00 PROFILE validation post, used the safe fallback to update the homepage routing hub, and added the PROOF trust-conversion route into the main owned-site portfolio path. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -42,9 +42,9 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- homepage/index.html: f780e94d81ce82d8166ce5bc005353a27d4f8fae
 - proof-to-pipeline.html: 027b0777885852253e98afcfedc42e72dafd89dd
 - sitemap.xml: 9ec7879b46871edeb3a0f91c6a7fce41a5dcb519
-- homepage/index.html: fdf83556a51b51a7fc8e04a0c79a1df11179df41
 - profile-audit-delivery.html: 58cf89e2a9ded3e33b48b8fd96a1dba3c53492b1
 - profile-audit.html: f8057c41597cfe2c80102019f2586ed0f680a42c
 - visual-launch-kit.html: e63be80f57055afd4db536df4f035b86187b3fb7
