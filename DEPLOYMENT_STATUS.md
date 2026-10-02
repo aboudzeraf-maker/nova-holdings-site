@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 13:45 UTC CEO Growth Pulse: added the NOVA Profile Conversion Audit Delivery Pack page as the qualification-first **PROFILE** fulfillment route, with 6-part audit output, 20-point scoring, 7-day action checklist, route decisions, CRM/dashboard rules, and no-fake-proof/no-guarantee/no-payment-before-fit guardrails after holding public posting for cadence safety.
+2026-10-02 14:15 UTC CEO Growth Pulse: updated the homepage into the current portfolio routing hub for **SCORE → ROUTE → PROFILE → SPRINT → SYSTEM**, linked the active product pages, emphasized qualification before payment language, and held additional X/LinkedIn posting for cadence safety after the 14:00 PROFILE validation post.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -40,6 +40,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- homepage/index.html: fdf83556a51b51a7fc8e04a0c79a1df11179df41
 - profile-audit-delivery.html: 58cf89e2a9ded3e33b48b8fd96a1dba3c53492b1
 - sitemap.xml: 52410bc1109209f6c1a577de3c7737d9e85415ab
 - profile-audit.html: f8057c41597cfe2c80102019f2586ed0f680a42c
