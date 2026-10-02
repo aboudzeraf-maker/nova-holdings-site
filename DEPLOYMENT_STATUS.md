@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 18:15 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 18:00 SCORE X broad-router post, verified X account access through `x_get_me`, detected the local SCORE reply-handling preview was missing, rebuilt it, and used the safe fallback to publish `score-reply-handling.html` as the controlled SCORE response route. Updated `sitemap.xml`. This supports confirmed SCORE replies with the 5-question first response, 0-10 scoring, one-route-first matrix, CRM/dashboard rules, and no-payment-before-fit boundaries. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 18:30 UTC CEO Growth Pulse: held public X/LinkedIn posting for cadence safety after the 18:00 SCORE X broad-router post, verified X account access through `x_get_me`, and used the safe fallback to improve owned conversion routing instead of overposting. Updated `index.html` and `start-here.html` so SCORE replies route directly to `score-reply-handling.html`, FILTER replies route to `filter-reply-handling.html`, and social visitors can choose one next route before any pitch, pricing, PayPal instruction, or product-specific sales language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -54,6 +54,8 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-02 18:30 homepage/index.html SCORE reply-handling route integration: 6116f5845611907663e601bab270921108b9957e
+- 2026-10-02 18:30 start-here.html SCORE/FILTER reply-handling route integration: d0e95c2b6e03f59d6544f58d23d41b44948ec118
 - 2026-10-02 18:15 score-reply-handling.html SCORE reply-handling playbook route: 1574994479b31fa98775f51509dff414609cdaea
 - 2026-10-02 18:15 sitemap.xml SCORE reply-handling route update: b2b1fe409188e6657ba98934857760e8844537d3
 - 2026-10-02 17:30 filter-reply-handling.html FILTER reply-handling playbook route: d42626b4a71a47472dd1f85bbf9d58a6fc06a3d1
@@ -61,14 +63,8 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - 2026-10-02 16:45 homepage/index.html FILTER + Start Here routing refresh: 0a110a6fe83bec35188287c6fde84a4676d1c322
 - 2026-10-02 16:45 start-here.html FILTER validation route refresh: 42aec4e2f039c1c609e82b683bb987c463129fe0
 - filter-validation.html: 636eaf725ca8c7e57bbcf7d69f7257320478e496
-- previous sitemap.xml filter-validation route update: 765d5c99144d469e9c53964193051471fb591047
-- previous start-here.html: 86a5efded68018274f5841fd85f8b7dc1a47ca40
-- previous sitemap.xml start-here route update: a8660a782c5de5f596b874c6334faf5f688459bb
 - growth-sprint-delivery.html: 8f7191c5015dec0f2f8fbf8b11db253d183b16cf
 - growth-sprint.html delivery-pack link update: 0ed96c233b7456594e6670bea789c0d20096df33
-- previous sitemap.xml delivery route update: 2b177f983a545206a23ccb679d0fd15ffff32531
-- previous homepage/index.html with GROWTH route: 1678a9f4a6307f9543a4cc0f50299ebccd14f797
-- previous growth-sprint.html page: 1746ed06b7bcbd40463ff0c83df95007063ebdfb
 - proof-to-pipeline.html: 027b0777885852253e98afcfedc42e72dafd89dd
 - profile-audit-delivery.html: 58cf89e2a9ded3e33b48b8fd96a1dba3c53492b1
 - profile-audit.html: f8057c41597cfe2c80102019f2586ed0f680a42c
