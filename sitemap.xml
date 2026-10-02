@@ -32,4 +32,8 @@
     <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit.html</loc>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit-delivery.html</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
