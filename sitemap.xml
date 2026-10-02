@@ -4,4 +4,12 @@
     <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/signal-brief.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/templates.html</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
