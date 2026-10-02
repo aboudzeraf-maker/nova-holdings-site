@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aboudzeraf-maker.github.io/nova-holdings-site/sitemap.xml
