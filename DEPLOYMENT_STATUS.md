@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 19:30 UTC CEO Growth Pulse: X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 17, followers_count 0, following_count 0, and empty profile description. Mentions and direct account searches from 19:15 UTC returned 0 confirmed signals. Latest tracked SCORE, FILTER, GROWTH, TEMPLATES, and PROFILE X posts still showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes. Public X/LinkedIn posting was held because same-day CTA volume is high and blind posting into zero reach is lower-leverage than owned-route improvement. Safe fallback executed: rebuilt the local NOVA AI Visibility Snapshot preview and uploaded `visibility-snapshot.html` as a no-guarantee AI-assisted buyer clarity/trust diagnostic route. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-02 19:45 UTC CEO Growth Pulse: X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 17, followers_count 0, following_count 0, and empty profile description. Mentions from 19:30 UTC returned 0 confirmed signals. Direct account searches for `to:NOVAHOLD_ING` and `@NOVAHOLD_ING` returned 0 posts; a broad ungrouped CTA keyword search returned irrelevant global posts and was not counted as NOVA signal. Latest tracked SCORE, FILTER, GROWTH, TEMPLATES, and PROFILE X posts still showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes. Public X/LinkedIn posting was held because same-day CTA volume is high and blind posting into zero reach is lower-leverage than owned-route improvement. Safe fallback executed: integrated `VISIBILITY` into the homepage and Social Start Here hub so the AI Visibility Snapshot has a clearer owned route before the next safe LinkedIn/X validation window. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -56,26 +56,19 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-02 19:45 homepage/index.html VISIBILITY route integration: dafa472b36ba868a724ede654b37faeebb0feae5
+- 2026-10-02 19:45 start-here.html VISIBILITY route integration: 36f43459a569e1a559d745f9cfd9cd3799936280
 - 2026-10-02 19:30 visibility-snapshot.html AI Visibility Snapshot route: b38940ff181adb2ebdea101198b33cb96731725f
 - 2026-10-02 19:30 sitemap.xml visibility snapshot route update: d2f708165fd64b79cb89d6597db590791fac9ed0
 - 2026-10-02 18:30 homepage/index.html SCORE reply-handling route integration: 6116f5845611907663e601bab270921108b9957e
 - 2026-10-02 18:30 start-here.html SCORE/FILTER reply-handling route integration: d0e95c2b6e03f59d6544f58d23d41b44948ec118
 - 2026-10-02 18:15 score-reply-handling.html SCORE reply-handling playbook route: 1574994479b31fa98775f51509dff414609cdaea
-- 2026-10-02 18:15 sitemap.xml SCORE reply-handling route update: b2b1fe409188e6657ba98934857760e8844537d3
 - 2026-10-02 17:30 filter-reply-handling.html FILTER reply-handling playbook route: d42626b4a71a47472dd1f85bbf9d58a6fc06a3d1
-- 2026-10-02 17:30 sitemap.xml FILTER reply-handling route update: ed0c292db5ec30a6d6ee45592831dcdb51e0214e
-- 2026-10-02 16:45 homepage/index.html FILTER + Start Here routing refresh: 0a110a6fe83bec35188287c6fde84a4676d1c322
-- 2026-10-02 16:45 start-here.html FILTER validation route refresh: 42aec4e2f039c1c609e82b683bb987c463129fe0
-- filter-validation.html: 636eaf725ca8c7e57bbcf7d69f7257320478e496
-- growth-sprint-delivery.html: 8f7191c5015dec0f2f8fbf8b11db253d183b16cf
-- growth-sprint.html delivery-pack link update: 0ed96c233b7456594e6670bea789c0d20096df33
-- proof-to-pipeline.html: 027b0777885852253e98afcfedc42e72dafd89dd
-- profile-audit-delivery.html: 58cf89e2a9ded3e33b48b8fd96a1dba3c53492b1
-- profile-audit.html: f8057c41597cfe2c80102019f2586ed0f680a42c
-- visual-launch-kit.html: e63be80f57055afd4db536df4f035b86187b3fb7
-- builder-validation.html: a4a5eba2a3340045cd5dc10e18bdad191d8c8c28
-- builder.html: 7cc7751efdfad83ce3caa8716559ed22a7fe8289
-- filter-kit.html: b79bbfc387ff29a086b62338778aee6b013162d8
+- 2026-10-02 16:30 filter-validation.html: 636eaf725ca8c7e57bbcf7d69f7257320478e496
+- 2026-10-02 15:30 growth-sprint-delivery.html: 8f7191c5015dec0f2f8fbf8b11db253d183b16cf
+- 2026-10-02 14:30 proof-to-pipeline.html: 027b0777885852253e98afcfedc42e72dafd89dd
+- 2026-10-02 13:00 builder-validation.html: a4a5eba2a3340045cd5dc10e18bdad191d8c8c28
+- 2026-10-02 12:45 builder.html: 7cc7751efdfad83ce3caa8716559ed22a7fe8289
 
 ## Status
 The production website files are uploaded to the `main` branch.
