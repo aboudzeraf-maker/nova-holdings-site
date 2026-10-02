@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVA SCORE Reply Handling Playbook</title>
+  <meta name="description" content="A qualification-first reply handling playbook for NOVA HOLDINGS SCORE inquiries across X and LinkedIn." />
+  <style>
+    :root {
+      --bg: #08111f;
+      --panel: #101b2d;
+      --panel-2: #16243a;
+      --text: #f5f7fb;
+      --muted: #b7c2d4;
+      --line: rgba(255,255,255,.12);
+      --accent: #65e4c5;
+      --accent-2: #8ab4ff;
+      --warning: #ffd166;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top left, rgba(101,228,197,.18), transparent 30%), radial-gradient(circle at bottom right, rgba(138,180,255,.15), transparent 35%), var(--bg);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0; }
+    .hero {
+      padding: 36px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(16,27,45,.94), rgba(22,36,58,.86));
+      box-shadow: 0 24px 80px rgba(0,0,0,.35);
+    }
+    .eyebrow { margin: 0 0 10px; color: var(--accent); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; font-size: 13px; }
+    h1 { margin: 0; font-size: clamp(34px, 6vw, 72px); line-height: .98; letter-spacing: -.05em; }
+    .lead { max-width: 760px; color: var(--muted); font-size: 20px; margin: 22px 0 0; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin-top: 22px; }
+    .card {
+      grid-column: span 6;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(16,27,45,.82);
+    }
+    .card.full { grid-column: 1 / -1; }
+    .card.third { grid-column: span 4; }
+    h2 { margin: 0 0 14px; font-size: 24px; letter-spacing: -.02em; }
+    h3 { margin: 16px 0 8px; font-size: 17px; }
+    p, li { color: var(--muted); }
+    ul, ol { padding-left: 20px; margin: 10px 0 0; }
+    .prompt {
+      padding: 18px;
+      background: rgba(101,228,197,.08);
+      border: 1px solid rgba(101,228,197,.25);
+      border-radius: 18px;
+      color: var(--text);
+    }
+    .route { display: grid; gap: 10px; margin-top: 12px; }
+    .route div { padding: 12px 14px; border-radius: 14px; background: rgba(255,255,255,.05); border: 1px solid var(--line); color: var(--muted); }
+    .tag { display: inline-flex; margin: 4px 6px 4px 0; padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(138,180,255,.32); color: #d7e5ff; background: rgba(138,180,255,.08); font-size: 13px; font-weight: 700; }
+    .warning { border-color: rgba(255,209,102,.35); background: rgba(255,209,102,.08); }
+    .footer { color: var(--muted); font-size: 13px; margin-top: 28px; text-align: center; }
+    @media (max-width: 800px) { .card, .card.third { grid-column: 1 / -1; } .hero { padding: 24px; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">NOVA HOLDINGS · SCORE Route</p>
+      <h1>SCORE Reply Handling Playbook</h1>
+      <p class="lead">A controlled, qualification-first system for turning broad X/LinkedIn SCORE interest into one useful next step before any pitch, pricing, or payment language.</p>
+    </section>
+
+    <section class="grid" aria-label="SCORE reply handling system">
+      <article class="card full">
+        <h2>First response</h2>
+        <div class="prompt">
+          <p><strong>Thanks — SCORE is the quickest way to avoid guessing.</strong></p>
+          <p>Send short answers to these 5 questions:</p>
+          <ol>
+            <li>What are you trying to sell?</li>
+            <li>Who is the buyer?</li>
+            <li>Where does growth feel stuck first: offer, proof, DMs, lead quality, content, follow-up, visuals, or implementation?</li>
+            <li>Do you already have people seeing the offer: yes/no?</li>
+            <li>Are you trying to fix this within 7 days, 30 days, or later?</li>
+          </ol>
+          <p>I’ll route you to one next step before any payment conversation. No hype, no guaranteed-results claims.</p>
+        </div>
+      </article>
+
+      <article class="card third">
+        <h2>0–3</h2>
+        <p><strong>Clarify first.</strong> Route to AUDIT, ROUTE, KIT, BUILDER, or nurture. Do not pitch payment.</p>
+      </article>
+      <article class="card third">
+        <h2>4–6</h2>
+        <p><strong>Build the missing piece.</strong> Route to KIT, SCRIPTS, PROOF, FILTER, VISUAL, ROUTE, or TEMPLATES.</p>
+      </article>
+      <article class="card third">
+        <h2>7–10</h2>
+        <p><strong>Focused improvement or strong buyer signal.</strong> Use one product-specific fit-check before SPRINT, GROWTH, SYSTEM, SIGNAL, or TEMPLATES.</p>
+      </article>
+
+      <article class="card full">
+        <h2>Route matrix</h2>
+        <div class="route">
+          <div><strong>Offer unclear</strong> → KIT, BUILDER, AUDIT, or ROUTE.</div>
+          <div><strong>Proof/trust weak</strong> → PROOF or PROFILE.</div>
+          <div><strong>DMs/follow-up weak</strong> → SCRIPTS or SPRINT fit-check.</div>
+          <div><strong>Lead quality weak</strong> → FILTER.</div>
+          <div><strong>Content/execution structure weak</strong> → TEMPLATES or SIGNAL.</div>
+          <div><strong>Visual launch weak but offer/buyer clear</strong> → VISUAL.</div>
+          <div><strong>Has offer and some signal but needs a bottleneck map</strong> → GROWTH.</div>
+          <div><strong>Needs a broader acquisition operating system and is highly qualified</strong> → SYSTEM fit-check.</div>
+          <div><strong>Wants fast done-with-you offer/CTA/scripts/posts/follow-up work</strong> → SPRINT fit-check.</div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>CRM and dashboard rules</h2>
+        <ul>
+          <li>A SCORE post is only a monitoring source until a reply/comment/DM/site inquiry is confirmed.</li>
+          <li>Add a real CRM lead only after confirmed inbound interest.</li>
+          <li>Use source tracking for public posts; do not invent replies, leads, or revenue.</li>
+          <li>Never record revenue unless tool-confirmed or owner-confirmed.</li>
+        </ul>
+      </article>
+
+      <article class="card warning">
+        <h2>Safety boundaries</h2>
+        <ul>
+          <li>No guaranteed revenue, leads, replies, sales, followers, or conversion lift.</li>
+          <li>No payment instructions from SCORE alone.</li>
+          <li>No pressure tactics or spam follow-up.</li>
+          <li>Do not pitch every NOVA product at once. Pick one route first.</li>
+          <li>Move to payment language only after product-specific fit-check, scope, no-guarantee terms, and explicit buyer intent.</li>
+        </ul>
+      </article>
+
+      <article class="card full">
+        <h2>Follow-up rule</h2>
+        <p>If a confirmed SCORE prospect receives the 5-question prompt and does not answer, wait 24–48 hours before one helpful reminder. Send at most two follow-ups total. If no reply, mark Nurture or No Active Follow-Up and stop direct outreach unless they re-engage.</p>
+        <div>
+          <span class="tag">SCORE</span><span class="tag">ROUTE</span><span class="tag">FILTER</span><span class="tag">SPRINT</span><span class="tag">GROWTH</span><span class="tag">SYSTEM</span><span class="tag">TEMPLATES</span><span class="tag">SIGNAL</span><span class="tag">BUILDER</span>
+        </div>
+      </article>
+    </section>
+    <p class="footer">NOVA HOLDINGS · Qualification-first acquisition assets · No hype, no spam, no guaranteed-results claims.</p>
+  </main>
+</body>
+</html>
