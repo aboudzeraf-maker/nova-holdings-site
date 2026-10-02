@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NOVA HOLDINGS Start Here | Growth Route Finder</title>
-  <meta name="description" content="Start here with NOVA HOLDINGS: choose the right growth route before any payment conversation. Scorecard, route finder, Growth Sprint, profile audit, proof kit, templates, signal brief, filter kit, and AI offer builder.">
+  <title>NOVA HOLDINGS Start Here | Social Growth Router</title>
+  <meta name="description" content="Start here with NOVA HOLDINGS: choose the right growth route before any payment conversation. Scorecard, route finder, Growth Sprint, profile audit, proof kit, buyer-fit filter validation, templates, signal brief, and AI offer builder.">
   <style>
     :root {
       --bg: #080b13;
@@ -53,6 +53,7 @@
     .routes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
     .route { padding: 22px; min-height: 245px; display: flex; flex-direction: column; justify-content: space-between; }
     .tag { display: inline-flex; width: fit-content; padding: 6px 10px; border-radius: 999px; background: rgba(115,167,255,.12); color: #cfe0ff; border: 1px solid rgba(115,167,255,.25); font-weight: 800; font-size: 12px; letter-spacing: .08em; }
+    .tag.green { background: rgba(103,215,165,.12); color: #d8ffed; border-color: rgba(103,215,165,.25); }
     .route h3 { margin: 16px 0 8px; font-size: 21px; letter-spacing: -.02em; }
     .route p { margin: 0; color: var(--muted); }
     .route .open { margin-top: 18px; color: var(--gold); font-weight: 900; }
@@ -80,13 +81,13 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-main card">
-          <div class="eyebrow">Start Here</div>
+          <div class="eyebrow">Start Here · 16:45 UTC update</div>
           <h1>Choose the right growth route before buying another tactic.</h1>
-          <p class="lead">NOVA HOLDINGS helps service providers and B2B operators turn attention into qualified conversations through offer clarity, proof, routing, templates, signals, and focused implementation. Start with the route that fits your current bottleneck.</p>
+          <p class="lead">NOVA HOLDINGS helps service providers and B2B operators turn attention into qualified conversations through offer clarity, proof, routing, templates, buyer-fit filtering, signals, and focused implementation. Start with the route that fits your current bottleneck.</p>
           <div class="cta-row">
             <a class="btn primary" href="index.html">Open the main route hub</a>
+            <a class="btn" href="filter-validation.html">Check buyer fit with FILTER</a>
             <a class="btn" href="growth-sprint.html">Explore Growth Sprint</a>
-            <a class="btn" href="templates.html">View templates route</a>
           </div>
         </div>
         <aside class="hero-side card" aria-label="Fast routing options">
@@ -95,7 +96,7 @@
             <a href="index.html"><strong>I am not sure what is broken.</strong><span>Start with SCORE or ROUTE on the homepage.</span></a>
             <a href="growth-sprint.html"><strong>I have an offer and some signal.</strong><span>Use GROWTH to map the bottleneck before a bigger system.</span></a>
             <a href="profile-audit.html"><strong>My X/LinkedIn profile is not converting.</strong><span>Use PROFILE to diagnose profile-to-conversation leaks.</span></a>
-            <a href="filter-kit.html"><strong>I need better lead quality.</strong><span>Use FILTER to separate ready buyers, nurture leads, and no-fit prospects.</span></a>
+            <a href="filter-validation.html"><strong>I need better lead quality.</strong><span>Use FILTER to separate ready buyers, nurture leads, unclear-fit conversations, and no-fit prospects.</span></a>
           </div>
         </aside>
       </div>
@@ -108,12 +109,15 @@
           <p>No single product is pushed to everyone. Each path starts with fit, scope, and a realistic next action before any payment language.</p>
         </div>
         <div class="routes">
+          <a class="route card" href="index.html"><div><span class="tag">SCORE / ROUTE</span><h3>Main Growth Router</h3><p>For unclear bottlenecks or mixed needs: score the problem, choose one next path, then move to a fit-check.</p></div><div class="open">Open router</div></a>
+          <a class="route card" href="filter-validation.html"><div><span class="tag green">FILTER</span><h3>Buyer Fit Filter</h3><p>For sellers who need to identify ready buyers, nurture leads, unclear-fit conversations, and no-fit prospects before pitching.</p></div><div class="open">Open FILTER</div></a>
           <a class="route card" href="growth-sprint.html"><div><span class="tag">GROWTH</span><h3>Growth Sprint</h3><p>For operators with an offer and some signal who need a bottleneck map, route recommendation, and 30-day action path.</p></div><div class="open">Open GROWTH</div></a>
           <a class="route card" href="profile-audit.html"><div><span class="tag">PROFILE</span><h3>Profile Conversion Audit</h3><p>For X/LinkedIn profiles that get attention but do not create enough qualified conversations.</p></div><div class="open">Open PROFILE</div></a>
           <a class="route card" href="proof-to-pipeline.html"><div><span class="tag">PROOF</span><h3>Proof-to-Pipeline Kit</h3><p>For founders who need practical trust assets without fake proof, exaggerated screenshots, or guaranteed-results claims.</p></div><div class="open">Open PROOF</div></a>
           <a class="route card" href="templates.html"><div><span class="tag">TEMPLATES</span><h3>Growth Templates Membership</h3><p>For teams that need reusable planning, content, follow-up, and routing templates.</p></div><div class="open">Open TEMPLATES</div></a>
           <a class="route card" href="signal-brief.html"><div><span class="tag">SIGNAL</span><h3>Signal Brief</h3><p>For B2B operators who need weekly market direction for posts, qualification questions, and offer tests.</p></div><div class="open">Open SIGNAL</div></a>
           <a class="route card" href="builder.html"><div><span class="tag">BUILDER</span><h3>AI Offer Builder Prototype</h3><p>For rough service ideas that need a clearer buyer, problem, promise, proof, CTA, and validation path. Prototype only, not a live SaaS claim.</p></div><div class="open">Open BUILDER</div></a>
+          <a class="route card" href="growth-sprint-delivery.html"><div><span class="tag">DELIVERY</span><h3>Growth Sprint Delivery Pack</h3><p>For confirmed GROWTH interest after a fit-check: readiness score, bottleneck map, route recommendation, and 30-day plan.</p></div><div class="open">Open delivery pack</div></a>
         </div>
       </div>
     </section>
@@ -121,14 +125,14 @@
     <section>
       <div class="wrap rule-grid">
         <div class="rule card"><strong>Fit before payment</strong><p>Every route uses a qualification step before pricing, scope, or payment instructions.</p></div>
-        <div class="rule card"><strong>No guaranteed outcomes</strong><p>NOVA builds clearer assets and systems; it does not promise revenue, followers, replies, or sales.</p></div>
+        <div class="rule card"><strong>No guaranteed outcomes</strong><p>NOVA builds clearer assets and systems; it does not promise revenue, followers, replies, leads, or sales.</p></div>
         <div class="rule card"><strong>No spam tactics</strong><p>Messages and follow-ups are designed around respect, relevance, and opt-out boundaries.</p></div>
         <div class="rule card"><strong>Portfolio first</strong><p>The company validates multiple product paths instead of depending on one offer or one channel.</p></div>
       </div>
     </section>
 
     <section>
-      <div class="wrap"><div class="signal card"><h2>How to engage from social</h2><p>If you came from X or LinkedIn, reply with the keyword that matches your need: SCORE, ROUTE, GROWTH, PROFILE, PROOF, TEMPLATES, SIGNAL, FILTER, BUILDER, or SPRINT. The next step is a fit-check, not an automatic payment request.</p></div></div>
+      <div class="wrap"><div class="signal card"><h2>How to engage from social</h2><p>If you came from X or LinkedIn, reply with the keyword that matches your need: SCORE, ROUTE, FILTER, GROWTH, PROFILE, PROOF, TEMPLATES, SIGNAL, BUILDER, or SPRINT. The next step is a fit-check, not an automatic payment request.</p></div></div>
     </section>
 
     <section>
