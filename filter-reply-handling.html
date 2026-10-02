@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVA FILTER Reply Handling Playbook</title>
+  <meta name="description" content="NOVA Buyer Fit Filter reply handling playbook: first response, scoring, route matrix, CRM boundaries, and safe follow-up rules." />
+  <style>
+    :root { --bg:#07111f; --panel:#0f1f33; --card:#122844; --text:#edf6ff; --muted:#a9bad1; --line:#27425f; --accent:#66e3ff; --accent2:#9dffb0; --gold:#ffd166; --danger:#ff8f8f; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif; background:radial-gradient(circle at top left,rgba(102,227,255,.18),transparent 36rem),linear-gradient(135deg,#050b14 0%,#0b1c30 60%,#07111f 100%); color:var(--text); line-height:1.55; }
+    .wrap { max-width:1120px; margin:0 auto; padding:54px 22px; }
+    .badge { display:inline-block; padding:8px 12px; border:1px solid var(--line); border-radius:999px; color:var(--accent); background:rgba(102,227,255,.08); font-weight:800; letter-spacing:.06em; font-size:12px; text-transform:uppercase; }
+    h1 { margin:22px 0 14px; font-size:clamp(36px,6vw,70px); line-height:.96; letter-spacing:-.05em; }
+    h2 { margin:0 0 14px; font-size:28px; letter-spacing:-.03em; }
+    h3 { margin:0 0 8px; font-size:18px; }
+    p { color:var(--muted); font-size:18px; }
+    a { color:inherit; text-decoration:none; }
+    .hero { display:grid; grid-template-columns:1.12fr .88fr; gap:22px; align-items:stretch; }
+    .panel, .card { background:rgba(15,31,51,.8); border:1px solid var(--line); border-radius:28px; box-shadow:0 24px 70px rgba(0,0,0,.32); }
+    .panel { padding:34px; }
+    .card { padding:22px; }
+    .cta { display:flex; flex-wrap:wrap; gap:12px; margin-top:26px; }
+    .button { display:inline-block; padding:14px 18px; border-radius:14px; font-weight:900; color:#06111d; background:linear-gradient(135deg,var(--accent),var(--accent2)); }
+    .ghost { display:inline-block; padding:14px 18px; border-radius:14px; font-weight:900; color:var(--text); border:1px solid var(--line); background:rgba(255,255,255,.04); }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:24px; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:24px; }
+    ul, ol { color:var(--muted); padding-left:22px; }
+    li { margin:8px 0; }
+    .script { white-space:pre-wrap; color:var(--text); background:#071522; border:1px solid var(--line); border-radius:18px; padding:18px; font-size:17px; }
+    table { width:100%; border-collapse:collapse; margin-top:12px; border-radius:18px; overflow:hidden; }
+    th, td { border:1px solid var(--line); padding:12px; text-align:left; color:var(--muted); vertical-align:top; }
+    th { color:var(--text); background:rgba(102,227,255,.08); }
+    .safe { border-left:4px solid var(--accent2); }
+    .warn { border-left:4px solid var(--danger); }
+    .gold { color:var(--gold); }
+    footer { margin-top:42px; color:var(--muted); font-size:14px; }
+    @media (max-width:860px) { .hero, .grid, .two { grid-template-columns:1fr; } h1 { font-size:42px; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="panel">
+        <span class="badge">NOVA HOLDINGS • FILTER operations</span>
+        <h1>FILTER reply handling playbook</h1>
+        <p>A practical response system for turning confirmed <strong>FILTER</strong> replies into clean buyer-fit routing: <strong>Ready</strong>, <strong>Nurture</strong>, <strong>Clarify</strong>, or <strong>No Fit</strong> — before any product-specific pitch or payment conversation.</p>
+        <div class="cta">
+          <a class="button" href="filter-validation.html">Open FILTER validation page</a>
+          <a class="ghost" href="filter-kit.html">Open FILTER kit</a>
+          <a class="ghost" href="start-here.html">Start Here</a>
+        </div>
+      </div>
+      <aside class="card">
+        <h2>Use when</h2>
+        <ul>
+          <li>A prospect replies or comments <strong>FILTER</strong>.</li>
+          <li>They ask how to know whether a lead is worth pursuing.</li>
+          <li>They complain about no-budget, vague, slow, or poor-fit prospects.</li>
+          <li>You need to route them before SPRINT, GROWTH, SYSTEM, KIT, SCRIPTS, PROOF, TEMPLATES, SIGNAL, or BUILDER.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="two">
+      <div class="card">
+        <h2>First response</h2>
+        <div class="script">Thanks — FILTER is for sorting prospects before pitching.
+
+Quick check:
+1. What do you sell, and at what price range?
+2. Where do leads usually come from now: X, LinkedIn, referrals, email, calls, community, paid ads, or other?
+3. What usually wastes the most time: vague pain, weak budget, no authority, slow decisions, low urgency, poor follow-up, or bad fit?
+4. Are you trying to improve lead quality within 7 days, 30 days, or later?
+
+I’ll use that to map the conversation into Ready, Nurture, Clarify, or No Fit — no pressure and no guaranteed-results claims.</div>
+      </div>
+      <div class="card warn">
+        <h2>Non-negotiables</h2>
+        <ul>
+          <li>Do not treat a monitoring source as a real lead until engagement is confirmed.</li>
+          <li>Do not send payment instructions from a FILTER reply alone.</li>
+          <li>Do not guarantee leads, replies, revenue, sales, followers, or conversion lift.</li>
+          <li>Do not pitch every NOVA product at once.</li>
+          <li>Use one primary route first.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:24px;">
+      <h2>Scoring shortcut</h2>
+      <table>
+        <thead><tr><th>Result</th><th>Score</th><th>Meaning</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Ready</td><td>75–100</td><td>Clear offer, buyer, urgency, fit, and action window.</td><td>Recommend one relevant path and ask if they want next-step details.</td></tr>
+          <tr><td>Nurture</td><td>50–74</td><td>Some fit but missing urgency, authority, or clarity.</td><td>Give one useful step; max two follow-ups.</td></tr>
+          <tr><td>Clarify</td><td>30–49</td><td>Too many unknowns to route safely.</td><td>Ask one focused question; no pitch yet.</td></tr>
+          <tr><td>No Fit</td><td>0–29</td><td>Weak fit, unethical ask, no buyer path, or unrealistic expectations.</td><td>Close politely or route to free content.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" style="margin-top:24px;">
+      <h2>Route matrix</h2>
+      <table>
+        <thead><tr><th>Trigger from answers</th><th>Primary path</th><th>Rule</th></tr></thead>
+        <tbody>
+          <tr><td>They need to sort lead quality only.</td><td>FILTER delivery pack</td><td>Keep it self-serve unless implementation need appears.</td></tr>
+          <tr><td>They have a sellable offer but weak positioning or CTA.</td><td>SPRINT fit-check</td><td>Ask SPRINT questions before pricing/payment language.</td></tr>
+          <tr><td>They have some traction but do not know the main bottleneck.</td><td>GROWTH fit-check</td><td>Diagnose before SYSTEM.</td></tr>
+          <tr><td>They need broader acquisition infrastructure.</td><td>SYSTEM fit-check</td><td>Only after scope, no-guarantee terms, contract/invoice readiness, and explicit buyer intent are clear.</td></tr>
+          <tr><td>The problem is DM/follow-up quality.</td><td>SCRIPTS fit-check</td><td>No spam or guaranteed replies.</td></tr>
+          <tr><td>The problem is proof/trust.</td><td>PROOF fit-check</td><td>No fake proof or fake metrics.</td></tr>
+          <tr><td>The problem is offer clarity/templates.</td><td>KIT or TEMPLATES</td><td>Use the relevant template route first.</td></tr>
+          <tr><td>The interest is broad or unclear.</td><td>ROUTE or SCORE</td><td>Use diagnostic routing before product pitch.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="grid">
+      <div class="card safe"><h3>Ready response</h3><p>“This looks like a <strong>Ready</strong> buyer-fit problem: the lead source exists, but the qualification layer is too loose. The next step is to map buyer signals into Ready / Nurture / Clarify / No Fit before pitching.”</p></div>
+      <div class="card safe"><h3>Nurture response</h3><p>“There may be fit, but urgency or buying conditions are not clear yet. Best next step: ask one sharper qualification question before follow-up.”</p></div>
+      <div class="card safe"><h3>Clarify / No Fit</h3><p>For Clarify, ask one missing-piece question. For No Fit, close politely and avoid pressure. Keep the relationship clean.</p></div>
+    </section>
+
+    <section class="two">
+      <div class="card">
+        <h2>CRM and dashboard rule</h2>
+        <ul>
+          <li>Update FILTER response tracking only after confirmed engagement.</li>
+          <li>Keep monitoring rows as monitoring until a confirmed response exists.</li>
+          <li>Update confirmed replies, qualified leads, and revenue only from tool-confirmed or owner-confirmed signals.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Follow-up rule</h2>
+        <ol>
+          <li>If the prospect answers partially, ask one clarifying question only.</li>
+          <li>Do not send repeated pitches.</li>
+          <li>Stop after max two value-based follow-ups unless they re-engage.</li>
+        </ol>
+      </div>
+    </section>
+
+    <footer><strong>NOVA HOLDINGS</strong> — qualification-first social acquisition. This playbook supports ethical routing and does not promise any specific financial, lead, reply, sales, follower, or conversion outcome.</footer>
+  </main>
+</body>
+</html>
