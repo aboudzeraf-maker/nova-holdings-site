@@ -5,6 +5,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/signal-brief.html</loc>
     <priority>0.8</priority>
   </url>
