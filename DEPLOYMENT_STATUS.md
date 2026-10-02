@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-02 13:15 UTC CEO Growth Pulse: added the NOVA Visual Launch Kit delivery page as the **VISUAL** fit-check, proof-safe creative direction, launch asset map, and no-fake-proof/no-guarantee boundary asset after holding public posting for cadence safety.
+2026-10-02 13:30 UTC CEO Growth Pulse: added the NOVA Profile Conversion Audit page as the **PROFILE** route for X/LinkedIn profile-to-qualified-conversation diagnosis, with profile scorecard, fit-check, proof-safe boundaries, and no fake-profile-edit/no-guarantee guardrails after holding public posting for cadence safety.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -17,6 +17,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - AI Offer Builder Prototype: https://aboudzeraf-maker.github.io/nova-holdings-site/builder.html
 - AI Offer Builder Validation Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/builder-validation.html
 - Visual Launch Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/visual-launch-kit.html
+- Profile Conversion Audit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit.html
 
 ## Files deployed / maintained
 - index.html
@@ -26,6 +27,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - builder.html
 - builder-validation.html
 - visual-launch-kit.html
+- profile-audit.html
 - robots.txt
 - sitemap.xml
 - .nojekyll
@@ -36,8 +38,9 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- profile-audit.html: f8057c41597cfe2c80102019f2586ed0f680a42c
+- sitemap.xml: 29c3fa850c2922d6ea824c3e7aad69fb9559b5e5
 - visual-launch-kit.html: e63be80f57055afd4db536df4f035b86187b3fb7
-- sitemap.xml: b4dc279caffa4a3115145fe8fd8043f4d4c3869b
 - builder-validation.html: a4a5eba2a3340045cd5dc10e18bdad191d8c8c28
 - builder.html: 7cc7751efdfad83ce3caa8716559ed22a7fe8289
 - filter-kit.html: b79bbfc387ff29a086b62338778aee6b013162d8
