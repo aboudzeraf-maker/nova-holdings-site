@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVA AI Visibility Snapshot | NOVA HOLDINGS</title>
+  <meta name="description" content="A no-guarantee clarity and trust diagnostic for service providers who want their public offer/profile path to be understandable to buyers and AI-assisted discovery." />
+  <style>
+    :root {
+      --bg: #07111f;
+      --panel: #0d1c31;
+      --panel-2: #112845;
+      --text: #eef6ff;
+      --muted: #9db1c9;
+      --line: rgba(255,255,255,.12);
+      --accent: #7dd3fc;
+      --accent-2: #a78bfa;
+      --safe: #34d399;
+      --warn: #fbbf24;
+      --danger: #fb7185;
+      --shadow: 0 20px 70px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(125, 211, 252, .20), transparent 32rem),
+        radial-gradient(circle at top right, rgba(167, 139, 250, .18), transparent 32rem),
+        linear-gradient(180deg, #07111f 0%, #081525 48%, #050b14 100%);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 20px 64px; }
+    header { display: flex; justify-content: space-between; gap: 18px; align-items: center; margin-bottom: 54px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: .08em; }
+    .logo {
+      width: 38px; height: 38px; border-radius: 13px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      display: grid; place-items: center; color: #06111f; font-weight: 900;
+      box-shadow: 0 10px 35px rgba(125, 211, 252, .22);
+    }
+    .nav { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .pill, .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      border: 1px solid var(--line); border-radius: 999px; padding: 10px 14px;
+      background: rgba(255,255,255,.04); color: var(--text); text-decoration: none; font-weight: 650;
+    }
+    .btn.primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #06111f; border: 0; }
+    .hero { display: grid; grid-template-columns: 1.15fr .85fr; gap: 28px; align-items: stretch; }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.035));
+      border: 1px solid var(--line); border-radius: 28px; box-shadow: var(--shadow);
+      padding: 28px;
+    }
+    h1 { font-size: clamp(2.25rem, 6vw, 5rem); line-height: .94; letter-spacing: -.06em; margin: 0 0 22px; }
+    h2 { font-size: clamp(1.5rem, 3vw, 2.4rem); line-height: 1.05; letter-spacing: -.035em; margin: 0 0 16px; }
+    h3 { margin: 0 0 10px; font-size: 1.05rem; }
+    p { color: var(--muted); margin: 0 0 16px; }
+    .lead { font-size: 1.18rem; max-width: 680px; }
+    .badge { color: #06111f; background: var(--safe); border-radius: 999px; padding: 7px 11px; font-weight: 800; font-size: .78rem; letter-spacing: .04em; display: inline-flex; margin-bottom: 16px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+    .metric-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; }
+    .metric { border: 1px solid var(--line); border-radius: 20px; padding: 16px; background: rgba(255,255,255,.04); }
+    .metric strong { display: block; font-size: 1.4rem; color: var(--accent); }
+    .section { margin-top: 26px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .grid.two { grid-template-columns: repeat(2, 1fr); }
+    .item { border: 1px solid var(--line); border-radius: 22px; padding: 20px; background: rgba(255,255,255,.04); }
+    ul { margin: 12px 0 0; padding-left: 19px; color: var(--muted); }
+    li { margin: 7px 0; }
+    .score { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .score .item:nth-child(1) strong { color: var(--danger); }
+    .score .item:nth-child(2) strong { color: var(--warn); }
+    .score .item:nth-child(3) strong { color: var(--accent); }
+    .score .item:nth-child(4) strong { color: var(--safe); }
+    .notice { border-left: 4px solid var(--warn); background: rgba(251,191,36,.09); border-radius: 18px; padding: 16px 18px; color: var(--muted); }
+    .cta { text-align: center; padding: 34px; background: linear-gradient(135deg, rgba(125,211,252,.14), rgba(167,139,250,.14)); }
+    .keyword { display: inline-block; font-size: 2rem; font-weight: 900; letter-spacing: .08em; color: var(--accent); }
+    footer { margin-top: 38px; color: var(--muted); font-size: .92rem; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    @media (max-width: 820px) {
+      .hero, .grid, .grid.two, .score { grid-template-columns: 1fr; }
+      header { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><div class="logo">N</div><span>NOVA HOLDINGS</span></div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="pill" href="./start-here.html">Start Here</a>
+        <a class="pill" href="./profile-audit.html">PROFILE</a>
+        <a class="pill" href="./proof-to-pipeline.html">PROOF</a>
+        <a class="pill" href="./growth-sprint.html">GROWTH</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card">
+          <span class="badge">NEW DIAGNOSTIC • CTA: VISIBILITY</span>
+          <h1>AI Visibility Snapshot</h1>
+          <p class="lead">A practical clarity and trust check for service providers, consultants, agencies, and B2B operators whose public assets need to be easier for buyers — and AI-assisted discovery flows — to understand.</p>
+          <p>This is not an SEO ranking promise, not an AI recommendation guarantee, and not a fake-proof system. It checks whether your offer, profile, proof, and next step are clear enough before you push harder on content or outreach.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#checklist">View the 20-point snapshot</a>
+            <a class="btn" href="#reply">Use the VISIBILITY response</a>
+          </div>
+        </div>
+        <aside class="card">
+          <h2>Why this matters</h2>
+          <p>Buyers may scan your profile, ask AI tools, compare your website, or look for proof before they ever reply.</p>
+          <div class="metric-grid">
+            <div class="metric"><strong>20</strong><span>clarity + trust checks</span></div>
+            <div class="metric"><strong>5</strong><span>diagnostic sections</span></div>
+            <div class="metric"><strong>0</strong><span>guaranteed outcome claims</span></div>
+            <div class="metric"><strong>1</strong><span>recommended next route</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section card" id="checklist">
+        <h2>The 20-point snapshot</h2>
+        <p>The snapshot scores five areas. Each item is worth one point. The goal is to identify the clearest next bottleneck before pitching a product, service, or payment step.</p>
+        <div class="grid">
+          <div class="item"><h3>1. Buyer clarity</h3><ul><li>Target buyer is named.</li><li>Pain/problem is specific.</li><li>Offer outcome is realistic.</li><li>CTA is visible and low-friction.</li></ul></div>
+          <div class="item"><h3>2. Proof and trust</h3><ul><li>Clear process explained.</li><li>Real proof or proof-building plan exists.</li><li>No fake screenshots or inflated claims.</li><li>Risks and boundaries are stated.</li></ul></div>
+          <div class="item"><h3>3. AI-readable public assets</h3><ul><li>Profile/headline explains the business.</li><li>Website or Start Here route is clear.</li><li>Product pages avoid vague promises.</li><li>Keywords match buyer problems.</li></ul></div>
+          <div class="item"><h3>4. Conversion path</h3><ul><li>Visitor knows the first step.</li><li>Broad interest routes to SCORE/ROUTE.</li><li>Product interest gets a fit-check.</li><li>Payment waits for fit and scope.</li></ul></div>
+          <div class="item"><h3>5. Follow-up readiness</h3><ul><li>Lead source is trackable.</li><li>CRM separates sources from leads.</li><li>First response asks for context.</li><li>Follow-up is respectful and capped.</li></ul></div>
+          <div class="item"><h3>Portfolio route</h3><ul><li>PROFILE for profile clarity.</li><li>PROOF for credibility gaps.</li><li>KIT/SPRINT for offer clarity.</li><li>GROWTH/SYSTEM after stronger fit.</li></ul></div>
+        </div>
+      </section>
+
+      <section class="section card">
+        <h2>Score bands</h2>
+        <div class="score">
+          <div class="item"><strong>0–7</strong><p>Unclear. Route to SCORE, ROUTE, or PROFILE before any product pitch.</p></div>
+          <div class="item"><strong>8–13</strong><p>Some clarity. Route to PROOF, KIT, or SPRINT depending on the bottleneck.</p></div>
+          <div class="item"><strong>14–17</strong><p>Credible but needs a stronger conversion path. Route to GROWTH or SPRINT.</p></div>
+          <div class="item"><strong>18–20</strong><p>Strong enough for SYSTEM or scaling conversation after fit is confirmed.</p></div>
+        </div>
+      </section>
+
+      <section class="section grid two">
+        <div class="card" id="reply">
+          <h2>First response for confirmed VISIBILITY replies</h2>
+          <p>“Thanks — VISIBILITY is a quick check for whether your public offer/profile is clear enough for buyers and AI-assisted discovery. Before I recommend a route, what do you sell, who is it for, and where should a prospect currently learn about it? No guarantees — just a clarity and trust snapshot.”</p>
+        </div>
+        <div class="card">
+          <h2>Safety boundaries</h2>
+          <div class="notice">Never promise AI recommendations, search rankings, leads, replies, sales, revenue, followers, or conversion lift. Never create fake proof. Treat this as a clarity and trust diagnostic only.</div>
+        </div>
+      </section>
+
+      <section class="section card cta">
+        <p>Future social CTA when cadence is safe:</p>
+        <div class="keyword">VISIBILITY</div>
+        <p>Reply or comment VISIBILITY for the checklist. No hype. No ranking guarantees. No fake proof.</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>NOVA HOLDINGS • Route-first acquisition system</span>
+      <span>Fit-check before payment language • No guaranteed outcomes</span>
+    </footer>
+  </div>
+</body>
+</html>
