@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVA AI Offer Builder Prototype</title>
+  <meta name="description" content="No-code prototype for NOVA AI Offer Builder: turn a rough service idea into a clearer offer draft, CTA, fit-check, and 7-day validation plan." />
+  <style>
+    :root{--bg:#06101f;--panel:#0d1d34;--text:#f7fbff;--muted:#a8b6ca;--line:rgba(255,255,255,.13);--accent:#5eead4;--accent2:#93c5fd;--warn:#fbbf24;--ok:#86efac}*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:radial-gradient(circle at top left,#123766,#06101f 45%,#030712);color:var(--text);line-height:1.55}main{width:min(1160px,92vw);margin:0 auto;padding:54px 0 72px}.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:start}.badge{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--accent);background:rgba(94,234,212,.08);font-size:14px;font-weight:700}h1{font-size:clamp(38px,6vw,70px);line-height:.96;margin:18px 0;letter-spacing:-.05em}h2{font-size:26px;margin:0 0 14px}p,li,label{color:var(--muted)}p{font-size:17px}.card{background:linear-gradient(180deg,rgba(16,38,66,.92),rgba(13,29,52,.92));border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 24px 70px rgba(0,0,0,.28)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}label{display:block;font-weight:700;font-size:14px;margin:0 0 6px}input,select{width:100%;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.06);color:var(--text);padding:12px;font:inherit;outline:none}button{border:0;border-radius:14px;background:var(--accent);color:#04201c;padding:14px 18px;font-weight:900;cursor:pointer;font-size:16px}.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.section{margin-top:30px}.notice{border-left:4px solid var(--warn);background:rgba(251,191,36,.08);padding:14px 16px;border-radius:12px;color:var(--muted)}.out{white-space:pre-wrap;background:rgba(255,255,255,.055);border:1px solid var(--line);border-radius:18px;padding:18px;color:#eaf2ff}footer{border-top:1px solid var(--line);margin-top:42px;padding-top:22px;font-size:14px;color:var(--muted)}@media(max-width:860px){.hero,.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <span class="badge">NOVA HOLDINGS • Builder prototype v0.1</span>
+        <h1>Turn a rough idea into a testable offer draft.</h1>
+        <p>This no-code prototype structures the first NOVA AI Offer Builder workflow: inputs → offer draft → CTA → fit-check → 7-day validation plan → safest NOVA route.</p>
+        <p class="notice">Prototype boundary: this page uses simple client-side rules only. It is not a live SaaS product, does not save data, does not process payments, and does not guarantee leads, sales, revenue, followers, or replies.</p>
+      </div>
+      <form id="builder" class="card">
+        <h2>Offer inputs</h2>
+        <div class="grid">
+          <div><label>What do you sell or want to sell?</label><input id="offer" placeholder="LinkedIn ghostwriting for B2B founders" /></div>
+          <div><label>Who is the buyer?</label><input id="buyer" placeholder="Early B2B SaaS founders" /></div>
+          <div><label>Painful problem</label><input id="problem" placeholder="Content gets views but no qualified calls" /></div>
+          <div><label>Realistic result</label><input id="result" placeholder="Clearer positioning and better fit-based conversations" /></div>
+          <div><label>Proof / process / insight</label><input id="proof" placeholder="3-step interview-to-post process" /></div>
+          <div><label>Price range</label><input id="price" placeholder="$500-$1,500" /></div>
+          <div><label>First channel</label><select id="channel"><option>X</option><option>LinkedIn</option><option>Email</option><option>Referrals</option><option>Calls</option><option>Community</option><option>Landing page</option></select></div>
+          <div><label>Main blocker</label><select id="blocker"><option>offer clarity</option><option>proof</option><option>CTA</option><option>DMs</option><option>pricing</option><option>follow-up</option><option>lead quality</option><option>traffic</option></select></div>
+        </div>
+        <div class="actions"><button type="submit">Generate prototype draft</button><button type="button" class="secondary" id="clear">Clear</button></div>
+      </form>
+    </section>
+    <section class="section card"><h2>Prototype output</h2><div id="empty" class="notice">Fill the inputs and generate a draft. Use this as a review worksheet, not a final strategy.</div><div id="output" class="out" hidden></div></section>
+    <section class="section card"><h2>Safe routing logic</h2><ul><li><strong>KIT</strong> when the user mainly needs worksheets and offer/pricing clarity.</li><li><strong>SCRIPTS</strong> when the leak is DMs, follow-up, or objection handling.</li><li><strong>FILTER</strong> when lead quality and qualification are weak.</li><li><strong>PROOF</strong> when trust or case-study structure is missing.</li><li><strong>SIGNAL/TEMPLATES</strong> when recurring direction or reusable operating assets are needed.</li><li><strong>SPRINT</strong> only after fit-check when the user has a real offer, buyer, urgency, and wants done-with-you implementation.</li></ul></section>
+    <footer>NOVA HOLDINGS — ethical offer clarity, qualification, and execution planning. No spam systems. No guaranteed outcomes. No financial transactions on this prototype.</footer>
+  </main>
+  <script>
+    const $=id=>document.getElementById(id); const val=(id,f)=>($(id).value||f).trim();
+    function route(b){ if(['DMs','follow-up'].includes(b))return'SCRIPTS'; if(b==='lead quality')return'FILTER'; if(b==='proof')return'PROOF'; if(b==='traffic')return'SIGNAL or TEMPLATES'; if(['offer clarity','pricing','CTA'].includes(b))return'KIT first, SPRINT if done-with-you implementation is needed'; return'ROUTE'; }
+    $('builder').addEventListener('submit',e=>{e.preventDefault(); const offer=val('offer','your service or digital product'), buyer=val('buyer','a specific buyer segment'), problem=val('problem','a painful business problem'), result=val('result','a clearer and more testable next step'), proof=val('proof','your process, experience, or buyer insight'), price=val('price','a simple starter price range'), channel=val('channel','LinkedIn'), blocker=val('blocker','offer clarity'), rec=route(blocker); $('empty').hidden=true; $('output').hidden=false; $('output').textContent=`OFFER NAME OPTIONS\n1. Clear Path ${offer}\n2. ${buyer} Offer Sprint\n3. Practical ${offer} Launch Kit\n\nTARGET BUYER\nFor ${buyer} who struggle with ${problem}.\n\nREALISTIC PROMISE\nHelp them move toward ${result} using ${proof}. No guaranteed revenue or lead promises.\n\nPACKAGE STRUCTURE\n- 1 diagnostic or intake step\n- 1 clear offer/CTA draft\n- 1 proof or trust asset\n- 3 ${channel} test posts or messages\n- 1 follow-up sequence\n- 7-day validation checklist\n\nPRICING LADDER HYPOTHESIS\n- Free diagnostic: SCORE/ROUTE fit-check\n- Low-ticket: template/workbook around ${price}\n- Done-with-you: route to NOVA Revenue Sprint only after fit-check\n\nCTA OPTIONS\n1. Reply BUILDER for the offer draft workflow.\n2. Reply SCORE for the 2-minute bottleneck scorecard.\n3. Reply ROUTE if you are not sure which NOVA path fits.\n\n7-DAY VALIDATION PLAN\nDay 1: tighten buyer/problem/promise.\nDay 2: write 3 ${channel} posts.\nDay 3: publish one diagnostic post.\nDay 4: manually follow up with warm/relevant contacts only.\nDay 5: review replies and objections.\nDay 6: improve CTA and proof.\nDay 7: decide whether to keep, adjust, or route to another NOVA asset.\n\nRECOMMENDED NOVA ROUTE\n${rec}\n\nSAFETY BOUNDARY\nNo payment instructions before fit, scope, no-guarantee terms, and explicit buyer intent are clear.`});
+    $('clear').addEventListener('click',()=>{document.querySelectorAll('input').forEach(i=>i.value=''); $('empty').hidden=false; $('output').hidden=true; $('output').textContent=''});
+  </script>
+</body>
+</html>
