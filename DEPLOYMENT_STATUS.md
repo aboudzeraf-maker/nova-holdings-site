@@ -7,11 +7,12 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-03 01:15 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 20, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 01:00 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 01:00 UTC returned 0 posts/signals. The 23:01 profile-funnel post `2106157650312401185`, 22:01 research-before-outreach post `2106142620003045605`, and 21:01 VISIBILITY education post `2106127481069527390` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held to avoid overposting and blind hard CTAs. Safe fallback: added `visibility-micro-snapshot.html` as the controlled VISIBILITY micro-snapshot delivery template for confirmed comments/DMs after the 5-question intake, with one-route-first recommendations, no payment-before-fit, no fake proof, and no ranking/lead/revenue guarantees. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-03 01:45 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 21, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 01:31 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 01:31 UTC returned 0 posts/signals. The trust-route education post `2106195511715733793`, profile-funnel education post `2106157650312401185`, and research-before-outreach post `2106142620003045605` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was only about 14 minutes old and LinkedIn is under the one-primary-post/day safety rule. Safe fallback: added `trust-route-checklist.html` and refreshed `start-here.html` so confirmed interest around profile → website/offer page → proof → next-step confusion can route through a 20-point diagnostic before any product-specific pitch, payment language, fake-proof claim, or guaranteed-results language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
+- NOVA Trust Route Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-checklist.html
 - NOVA Social Profile Conversion Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html
 - NOVA Profile Funnel Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html
 - NOVA Profile Funnel Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-reply-handling.html
@@ -38,6 +39,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 ## Files deployed / maintained
 - index.html
 - start-here.html
+- trust-route-checklist.html
 - profile-conversion-kit.html
 - profile-funnel-scorecard.html
 - profile-funnel-reply-handling.html
@@ -70,6 +72,9 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-03 01:45 trust-route-checklist.html Trust Route Checklist page: 6e7955b5234e3a41a2aad240d7880f01df4c8d04
+- 2026-10-03 01:45 sitemap.xml Trust Route Checklist route update: 462aa4fd1c0ce7eb14dd21da330234b0555180dd
+- 2026-10-03 01:45 start-here.html Trust Route Checklist routing update: b3ae8bc72e25a968174e66e9b9f6d3e99d1236f6
 - 2026-10-03 01:15 visibility-micro-snapshot.html VISIBILITY micro-snapshot delivery template: c7762423159ec33568f2e9ef6480af4505d8e307
 - 2026-10-03 01:15 sitemap.xml VISIBILITY micro-snapshot route update: 5b7b9adf9e6b3ed082e676c2ee932884e08fda67
 - 2026-10-03 01:00 visibility-objection-response.html VISIBILITY objection/follow-up bank: e4b4f644d355887ba2fa4f8015db0965880ec808
