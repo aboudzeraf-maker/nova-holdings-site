@@ -7,11 +7,12 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-03 07:00 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 25, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 06:45 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 06:45 UTC returned 0 posts/signals. Source-credibility education post `2106267117569896776`, proof-verification-burden post `2106248328027484244`, and repeatable-evidence post `2106229351289172101` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Simple market-listening searches for AI visibility/source credibility and source credibility proof returned 0 recent results. None were counted as leads. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was about 44 minutes old at cycle start, zero reach persisted, and no confirmed engagement required reply handling. Safe fallback: refreshed `start-here.html` and `index.html` so the SOURCE Credibility Readiness Scorecard is now linked into the primary SOURCE/social route before Source Ledger, reply handling, micro-audit, Evidence, Trust Route, VISIBILITY, and product-specific routing. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-03 07:45 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 26, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 07:30 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 07:30 UTC returned 0 posts/signals. Route-first education post `2106286037727117320`, source-credibility education post `2106267117569896776`, and proof-verification-burden post `2106248328027484244` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Market listening returned only NOVA's own route-first post for the route-first query and no confirmed buyer/prospect signal. Public posting was held because the latest X post was about 14 minutes old, no confirmed engagement required reply handling, and LinkedIn VISIBILITY remains the active daily professional-channel test. Safe fallback: created and uploaded `route-first-diagnostic.html` as a route-first acquisition diagnostic so confirmed offer/proof/follow-up/route interest can be scored before any product-specific pitch or payment language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
+- NOVA Route-First Acquisition Diagnostic: https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html
 - NOVA SOURCE Credibility Readiness Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html
 - NOVA Source Credibility Ledger: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-ledger.html
 - NOVA Source Credibility Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-reply-handling.html
@@ -52,6 +53,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 ## Files deployed / maintained
 - index.html
 - start-here.html
+- route-first-diagnostic.html
 - source-credibility-scorecard.html
 - source-credibility-ledger.html
 - source-credibility-reply-handling.html
@@ -98,6 +100,8 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-03 07:45 route-first-diagnostic.html Route-First Acquisition Diagnostic: f8ef5aa9dec8db0f47578e0cd66f3c24d3c04dbd
+- 2026-10-03 07:45 sitemap.xml Route-First Diagnostic route update: d1a6c95858ad07fd02df9c280c891b25f41b5641
 - 2026-10-03 07:00 start-here.html SOURCE scorecard routing refresh: 66420486bc7f9640e087a2fe13a97348edff37cd
 - 2026-10-03 07:00 index.html homepage SOURCE scorecard integration: e00027d87604b8446ccaa80ae124ea387af73aff
 - 2026-10-03 06:45 source-credibility-scorecard.html SOURCE Credibility Readiness Scorecard: d5d635ae453043c32943babd5ee204e420549aeb
