@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVA Revenue Sprint — Proposal + Scope Confirmation Pack</title>
+  <meta name="description" content="A no-guarantee proposal and scope confirmation asset for qualified NOVA Revenue Sprint conversations." />
+  <style>
+    :root {
+      --bg: #07111f;
+      --panel: #0d1b2f;
+      --panel2: #10223b;
+      --text: #eef6ff;
+      --muted: #a9bdd4;
+      --line: rgba(255,255,255,.12);
+      --blue: #60a5fa;
+      --cyan: #22d3ee;
+      --green: #34d399;
+      --amber: #fbbf24;
+      --red: #fb7185;
+      --shadow: 0 24px 80px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: radial-gradient(circle at top left, rgba(34,211,238,.18), transparent 36%), radial-gradient(circle at top right, rgba(96,165,250,.14), transparent 34%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 48px 20px 72px; }
+    .hero {
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 36px;
+      background: linear-gradient(135deg, rgba(13,27,47,.96), rgba(16,34,59,.84));
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero:after {
+      content: "";
+      position: absolute;
+      width: 360px;
+      height: 360px;
+      right: -140px;
+      top: -140px;
+      background: radial-gradient(circle, rgba(34,211,238,.24), transparent 64%);
+      pointer-events: none;
+    }
+    .eyebrow { color: var(--cyan); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: 12px; }
+    h1 { margin: 10px 0 14px; font-size: clamp(34px, 5vw, 62px); line-height: 1.02; letter-spacing: -.04em; }
+    .lead { color: var(--muted); font-size: 19px; max-width: 820px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .tag { border: 1px solid var(--line); background: rgba(255,255,255,.06); padding: 8px 12px; border-radius: 999px; color: #dbeafe; font-size: 13px; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin-top: 22px; }
+    .card { grid-column: span 6; border: 1px solid var(--line); background: rgba(13,27,47,.82); border-radius: 22px; padding: 24px; box-shadow: 0 12px 40px rgba(0,0,0,.18); }
+    .card.full { grid-column: 1 / -1; }
+    .card.third { grid-column: span 4; }
+    h2 { margin: 0 0 12px; font-size: 24px; letter-spacing: -.02em; }
+    h3 { margin: 18px 0 8px; font-size: 17px; color: #dbeafe; }
+    p { margin: 8px 0; }
+    ul, ol { margin: 10px 0 0; padding-left: 22px; color: var(--muted); }
+    li { margin: 6px 0; }
+    .highlight { color: var(--green); font-weight: 800; }
+    .warn { color: var(--amber); font-weight: 800; }
+    .danger { color: var(--red); font-weight: 800; }
+    .script { white-space: pre-wrap; border: 1px solid rgba(96,165,250,.26); background: rgba(96,165,250,.08); border-radius: 18px; padding: 18px; color: #e8f2ff; }
+    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 16px; border: 1px solid var(--line); }
+    th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { background: rgba(96,165,250,.13); color: #dbeafe; }
+    td { color: var(--muted); }
+    tr:last-child td { border-bottom: 0; }
+    .steps { counter-reset: step; display: grid; gap: 12px; }
+    .step { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; border: 1px solid var(--line); border-radius: 18px; padding: 14px; background: rgba(255,255,255,.04); }
+    .step:before { counter-increment: step; content: counter(step); width: 34px; height: 34px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--cyan)); display: grid; place-items: center; color: #03111f; font-weight: 900; }
+    .footer { margin-top: 28px; color: var(--muted); font-size: 13px; text-align: center; }
+    @media (max-width: 820px) { .hero { padding: 26px; } .card, .card.third { grid-column: 1 / -1; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">NOVA HOLDINGS · Revenue Sprint</div>
+      <h1>Proposal + Scope Confirmation Pack</h1>
+      <p class="lead">A trust-first closeout asset for qualified SPRINT conversations. It clarifies scope, timeline, revision boundary, no-guarantee terms, and buyer acceptance before any payment/onboarding step.</p>
+      <div class="tags">
+        <span class="tag">For confirmed SPRINT signals only</span>
+        <span class="tag">First 1–5 clients</span>
+        <span class="tag">No guaranteed outcomes</span>
+        <span class="tag">Scope before payment</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card full">
+        <h2>When to use this pack</h2>
+        <div class="steps">
+          <div class="step"><div><strong>Confirmed signal.</strong><br />Use only after a real reply, DM, comment, or site inquiry is confirmed by tool or owner.</div></div>
+          <div class="step"><div><strong>Fit-check complete.</strong><br />SPRINT Fit Score should be 4–5, or a score 3 must become qualified after clarification.</div></div>
+          <div class="step"><div><strong>Scope is clear.</strong><br />Offer, buyer, bottleneck, channel, timeline, and no-guarantee boundary are clear enough to summarize.</div></div>
+          <div class="step"><div><strong>Buyer intent is explicit.</strong><br />The buyer asks for next step, details, proposal, invoice/payment, or how to proceed.</div></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Revenue gap solved</h2>
+        <p>This pack fills the handoff between readiness/client-input assets and the final buyer decision. It reduces hesitation, scope creep, premature payment language, and inconsistent proposal tracking.</p>
+        <ul>
+          <li>Clear proposal message for qualified SPRINT buyers.</li>
+          <li>Buyer acceptance checklist before payment instructions.</li>
+          <li>Fallback matrix for objections and no-fit signals.</li>
+          <li>Proposal decision tracker for CEO KPI review.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Hard guardrails</h2>
+        <ul>
+          <li>No financial transactions, withdrawals, refunds, or payment execution.</li>
+          <li>No payment instructions before fit, scope, no-guarantee acceptance, and explicit buyer intent.</li>
+          <li>No guaranteed leads, replies, sales, revenue, followers, rankings, recommendations, or conversion lift.</li>
+          <li>No fake proof, fake urgency, spam DMs, or pressure tactics.</li>
+        </ul>
+      </article>
+
+      <article class="card full">
+        <h2>Short proposal confirmation script</h2>
+        <div class="script">Based on your answers, NOVA Revenue Sprint looks like a possible fit.
+
+Here is the clean scope before any payment step:
+
+Sprint outcome: clearer offer positioning, buyer route, CTA, 3–5 X/LinkedIn test posts, DM/reply scripts, follow-up messages, qualifying questions, and a 7-day execution plan.
+Timeline: 48–72 hours after payment is confirmed and onboarding inputs are complete.
+Boundary: no guaranteed leads, replies, revenue, rankings, followers, sales, or conversion lift. This is a sales-asset and validation-path sprint.
+Revision: one focused revision pass for clarity or factual correction within 7 days of delivery.
+
+If you want to proceed, reply: “I understand the scope/no-guarantee boundary and want the next step.”</div>
+      </article>
+
+      <article class="card full">
+        <h2>Internal proposal builder fields</h2>
+        <table>
+          <thead><tr><th>Field</th><th>Required note</th></tr></thead>
+          <tbody>
+            <tr><td>Prospect/source</td><td>Tool-confirmed or owner-confirmed source only.</td></tr>
+            <tr><td>CTA route</td><td>SPRINT / AUDIT → SPRINT / SCORE → SPRINT / ROUTE → SPRINT / other.</td></tr>
+            <tr><td>Offer + buyer</td><td>One-sentence offer and specific buyer segment.</td></tr>
+            <tr><td>Main bottleneck</td><td>One dominant leak: offer clarity, proof, CTA, DMs, pricing, follow-up, landing page, or lead quality.</td></tr>
+            <tr><td>Scores</td><td>Sprint Fit Score 0–5; input readiness 0–10 if worksheet used.</td></tr>
+            <tr><td>Acceptance</td><td>No-guarantee accepted and buyer intent confirmed before payment instructions.</td></tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="card third">
+        <h2>Continue SPRINT</h2>
+        <p class="highlight">Use when fit is strong.</p>
+        <ul>
+          <li>Real offer exists.</li>
+          <li>Buyer is specific.</li>
+          <li>Can test within 7 days.</li>
+          <li>No-guarantee boundary accepted.</li>
+          <li>Buyer explicitly wants next step.</li>
+        </ul>
+      </article>
+
+      <article class="card third">
+        <h2>Clarify first</h2>
+        <p class="warn">Use when one detail blocks scope.</p>
+        <ul>
+          <li>Offer is partially clear.</li>
+          <li>Buyer or channel is vague.</li>
+          <li>Proof/source constraints are unclear.</li>
+          <li>Scope risk is medium.</li>
+        </ul>
+      </article>
+
+      <article class="card third">
+        <h2>Route away</h2>
+        <p class="danger">Use when SPRINT is unsafe.</p>
+        <ul>
+          <li>No offer or no buyer clarity.</li>
+          <li>Requests guaranteed outcomes.</li>
+          <li>Wants spam or fake proof.</li>
+          <li>Needs full acquisition system.</li>
+        </ul>
+      </article>
+
+      <article class="card full">
+        <h2>Fallback matrix</h2>
+        <table>
+          <thead><tr><th>Red flag</th><th>Safe fallback</th></tr></thead>
+          <tbody>
+            <tr><td>Wants guaranteed sales/leads/revenue</td><td>Explain no-guarantee boundary; continue only if accepted.</td></tr>
+            <tr><td>No real offer</td><td>Route to KIT, BUILDER, AUDIT, or nurture.</td></tr>
+            <tr><td>Buyer unclear</td><td>Route to SCORE/ROUTE or ask one buyer-clarity question.</td></tr>
+            <tr><td>Needs proof invented</td><td>Route to PROOF/SOURCE/EVIDENCE; never fabricate proof.</td></tr>
+            <tr><td>Wants full acquisition system</td><td>Route to GROWTH or SYSTEM fit-check.</td></tr>
+            <tr><td>Cannot act within 7 days</td><td>Nurture or route to templates/diagnostic.</td></tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="card full">
+        <h2>CEO KPI use</h2>
+        <p>Track qualified fit-checks, proposal-ready conversations, proposals sent, scope accepted, payment instructions sent, paid clients confirmed, lost/nurture reasons, and the most common objection before proposal. This shows whether the bottleneck is traffic, qualification, proposal clarity, trust, price, scope, or onboarding readiness.</p>
+      </article>
+    </section>
+    <p class="footer">NOVA HOLDINGS · Built for ethical first-customer conversion · No financial transactions or guaranteed outcomes.</p>
+  </main>
+</body>
+</html>
