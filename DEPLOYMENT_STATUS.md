@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-03 08:00 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 26, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 07:45 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 07:45 UTC returned 0 posts/signals. Route-first education post `2106286037727117320`, source-credibility education post `2106267117569896776`, and proof-verification-burden post `2106248328027484244` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Market listening queries for route-first acquisition, buyer proof/evidence/trust, and client acquisition proof/follow-up returned 0 usable recent signals. Public posting was held because the latest X post was about 29 minutes old, no confirmed engagement required reply handling, and LinkedIn VISIBILITY remains the active daily professional-channel test. Safe fallback: created and uploaded `route-first-reply-handling.html`, plus the memory playbook and response tracker, so confirmed route/offer/proof/follow-up interest can be handled with one-route-first scoring before any product-specific pitch, pricing, PayPal instruction, or guarantee-like language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-03 08:15 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 26, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 08:00 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 08:00 UTC returned 0 posts/signals. Route-first education post `2106286037727117320`, source-credibility education post `2106267117569896776`, and proof-verification-burden post `2106248328027484244` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Market listening queries for route-first acquisition and client acquisition proof/follow-up returned 0 usable recent signals. Public posting was held because the latest X post was about 44 minutes old, no confirmed engagement required reply handling, and LinkedIn VISIBILITY remains the active daily professional-channel test. Safe fallback: updated `start-here.html` and `index.html` so Route-First Acquisition Diagnostic and Route-First Reply Handling are linked into the primary owned route before product-specific pitch, pricing, PayPal instruction, or guarantee-like language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -102,19 +102,13 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-03 08:15 start-here.html route-first routing refresh: 3f11488b33bee7875a3214ed438d5337de57cb06
+- 2026-10-03 08:15 index.html route-first homepage integration: af47e83db5b8fe2ca9cd4d3e21b3314e0bed7a93
 - 2026-10-03 08:00 route-first-reply-handling.html Route-First Reply Handling Playbook: 07dcdd129f29707bc1743301461565ce631e8555
 - 2026-10-03 08:00 sitemap.xml Route-First Reply Handling route update: 60899872ad428838b8d3d4048611e84e25b5df35
 - 2026-10-03 07:45 route-first-diagnostic.html Route-First Acquisition Diagnostic: f8ef5aa9dec8db0f47578e0cd66f3c24d3c04dbd
 - 2026-10-03 07:45 sitemap.xml Route-First Diagnostic route update: d1a6c95858ad07fd02df9c280c891b25f41b5641
-- 2026-10-03 07:00 start-here.html SOURCE scorecard routing refresh: 66420486bc7f9640e087a2fe13a97348edff37cd
-- 2026-10-03 07:00 index.html homepage SOURCE scorecard integration: e00027d87604b8446ccaa80ae124ea387af73aff
 - 2026-10-03 06:45 source-credibility-scorecard.html SOURCE Credibility Readiness Scorecard: d5d635ae453043c32943babd5ee204e420549aeb
-- 2026-10-03 06:45 sitemap.xml Source Credibility Scorecard route update: 32ad538279f9ad604f33f13c07626f8556ddbabb
-- 2026-10-03 06:30 index.html homepage SOURCE/source-credibility integration: c4f2cfc1771c15d48bbc81d66f31e17ed5a2575d
-- 2026-10-03 06:00 start-here.html Source Credibility routing refresh: 8db0546dc67e59be707a1997d5c1cec5aa3365ce
-- 2026-10-03 05:45 source-credibility-micro-audit.html Source Credibility Micro-Audit Template: 2623b75963157e18529cd1f1b23c354c9bca13e9
-- 2026-10-03 05:30 source-credibility-reply-handling.html Source Credibility Reply Handling Playbook: ad4a66954125719c1b3862569cdff2445e538577
-- 2026-10-03 05:16 source-credibility-ledger.html Source Credibility Ledger: 4cf41e094972d71632e28f8450e0550ef0ea4ff4
 
 ## Status
 The production website files are uploaded to the `main` branch and a GitHub Pages Actions workflow exists for static deployment.
