@@ -1,113 +1,74 @@
 # Deployment Status
 
+## Current verified public status
+Last live URL verification: **2026-10-03 10:45 UTC** using `read_url_content`.
+
+Checked URLs:
+
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/` → **404 Not Found**
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/audit-reply-handling.html` → **404 Not Found**
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/ops-fit-check.html` → **404 Not Found**
+
+Conclusion: the static website files are in the public GitHub repository, but the expected GitHub Pages URLs are **not currently publicly serving the NOVA site**. Do not claim the homepage, AUDIT route, OPS route, or any expected Pages route is live until a URL-check tool opens the page and verifies expected content or a deployment/status tool returns a confirmed public `page_url`.
+
 ## Repository
 https://github.com/aboudzeraf-maker/nova-holdings-site
+
+Repository status observed previously: public, active, default branch `main`.
 
 ## Expected public URL
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
-## Latest deployment check
-2026-10-03 10:31 UTC Website Deployment Check.
+Current status: **repository deployed / expected Pages route exists / live URL checks returned 404**.
 
-- GitHub repository access confirmed through the GitHub tools.
-- Repository is public, active, and uses `main` as the default branch.
-- Root directory contains 56 entries including `index.html`, `start-here.html`, product/route pages, `audit-reply-handling.html`, `README_DEPLOY.md`, `robots.txt`, `sitemap.xml`, `.nojekyll`, `netlify.toml`, `vercel.json`, `README.md`, `DEPLOYMENT_STATUS.md`, and `.github/workflows/pages.yml`.
-- GitHub Pages workflow exists at `.github/workflows/pages.yml` and uses `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`.
-- `README_DEPLOY.md` was added as the primary deployment and fallback runbook.
-- `README.md` was updated to link the deployment runbook and to make the public-status rule explicit.
-- `sitemap.xml` was updated to include `audit-reply-handling.html` after the AUDIT reply-handling route appeared in the repository.
-- These pushes to `main` should re-trigger the GitHub Pages workflow if Pages is configured for GitHub Actions.
-- No GitHub Pages/status tool in this run returned a confirmed public `page_url`, and no live URL-check/fetch tool was available. Public URL status remains **expected, not independently live-verified**.
+## Fallback action executed
+2026-10-03 10:45 UTC:
 
-## Latest deployment commits
-- 2026-10-03 10:35 `sitemap.xml` AUDIT reply-handling route added: `41874e66353672710f0b9183c19942c8298ba9bf`
-- 2026-10-03 10:32 `DEPLOYMENT_STATUS.md` deployment check update: `a674e99f6fdcd17755a57b426b64e678b2be590e`
-- 2026-10-03 10:31 `audit-reply-handling.html` AUDIT Reply Handling Playbook page observed in repo history: `55d69174e854ad0261b167f043d9cd99771d27ab`
-- 2026-10-03 10:31 `README_DEPLOY.md` deployment runbook created: `188c0df4c5d8342f4c9376598a46f770c3a53e5a`
-- 2026-10-03 10:31 `README.md` deployment status rule update: `b58a59b7af766259e487c87114293950462a55c5`
-- 2026-10-03 10:15 `ops-fit-check.html` OPS Enterprise Fit-Check Scorecard: `ba5687fb4b27b0f95730b40ff2a4d682f166a2a0`
-- 2026-10-03 10:15 `sitemap.xml` OPS Fit-Check route update: `45f09e37397de3ad8572e43cb40fc9cb30f83765`
-- 2026-10-03 09:45 `sprint-objection-response.html` Revenue Sprint Objection Response Bank: `eebfa7db449aa2d90592779906054e84a5aab532`
-- 2026-10-03 09:31 `sprint-client-input.html` Revenue Sprint Client Input Worksheet: `d79888d85d1753e8770a96805147f1ebba915987`
-- 2026-10-03 09:15 `sprint-readiness-pack.html` Revenue Sprint Readiness Pack: `fac0a34e93d300cda513413030c09cc7b06137a4`
-- 2026-10-03 09:00 `sprint-reply-handling.html` Revenue Sprint Reply Handling Playbook: `aa77be8c96f4887af590ad26b95f3c5dda8abb15`
-
-## Expected public product paths
-These paths are expected from the GitHub Pages repository route, but remain unconfirmed until a deployment/status or live URL-check tool verifies them.
-
-- Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
-- Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
-- NOVA Revenue Sprint Fit-Check: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-fit-check.html
-- NOVA Revenue Sprint Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-reply-handling.html
-- NOVA Revenue Sprint Readiness Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html
-- NOVA Revenue Sprint Client Input Worksheet: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-client-input.html
-- NOVA Revenue Sprint Objection Response Bank: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-objection-response.html
-- NOVA AUDIT Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/audit-reply-handling.html
-- NOVA Route-First Acquisition Diagnostic: https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html
-- NOVA Route-First Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-reply-handling.html
-- NOVA SOURCE Credibility Readiness Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html
-- NOVA Source Credibility Ledger: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-ledger.html
-- NOVA Source Credibility Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-reply-handling.html
-- NOVA Source Credibility Micro-Audit Template: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-micro-audit.html
-- NOVA Proof Verification Burden Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-verification-burden.html
-- NOVA Evidence Route QA Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-route-qa.html
-- NOVA Buyer Evidence Map: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-map.html
-- NOVA Buyer Evidence Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-reply-handling.html
-- NOVA Evidence-to-Answer Pack Validation Page: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-answer-pack.html
-- NOVA Buyer Evidence Question Bank: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-question-bank.html
-- NOVA Evidence-to-Route Matrix: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-route-matrix.html
-- NOVA Trust Route Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-checklist.html
-- NOVA Trust Route Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-reply-handling.html
-- NOVA Trust Route Micro-Audit Template: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-micro-audit.html
-- NOVA Social Profile Conversion Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html
-- NOVA Profile Funnel Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html
-- NOVA Profile Funnel Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-reply-handling.html
-- NOVA Research-before-Outreach Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/research-before-outreach.html
-- NOVA AI Visibility Snapshot: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-snapshot.html
-- NOVA VISIBILITY Snapshot Intake + Fit Router: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-intake.html
-- NOVA VISIBILITY Objection + Follow-up Bank: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-objection-response.html
-- NOVA VISIBILITY Micro-Snapshot Delivery Template: https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-micro-snapshot.html
-- NOVA Growth Sprint: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint.html
-- NOVA Growth Sprint Delivery Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint-delivery.html
-- Proof-to-Pipeline Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html
-- Signal Brief: https://aboudzeraf-maker.github.io/nova-holdings-site/signal-brief.html
-- Growth Templates Membership: https://aboudzeraf-maker.github.io/nova-holdings-site/templates.html
-- Buyer Fit Filter Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-kit.html
-- Buyer Fit Filter Validation Campaign Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-validation.html
-- Buyer Fit Filter Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/filter-reply-handling.html
-- SCORE Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/score-reply-handling.html
-- AI Offer Builder Prototype: https://aboudzeraf-maker.github.io/nova-holdings-site/builder.html
-- AI Offer Builder Validation Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/builder-validation.html
-- NOVA OPS Enterprise Fit-Check Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/ops-fit-check.html
-- Visual Launch Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/visual-launch-kit.html
-- Profile Conversion Audit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit.html
-- Profile Conversion Audit Delivery Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit-delivery.html
-
-## Files deployed / maintained
-- `index.html`
-- `start-here.html`
-- route/product HTML pages listed in `sitemap.xml`
-- `audit-reply-handling.html`
-- `robots.txt`
-- `sitemap.xml`
-- `.nojekyll`
-- `README.md`
-- `README_DEPLOY.md`
-- `DEPLOYMENT_STATUS.md`
-- `netlify.toml`
-- `vercel.json`
-- `.github/workflows/pages.yml`
+- Created branch `gh-pages` from `main` at commit `31c5d1f05624d77201920d502c19dffc90eece97` as a safe branch-source fallback for GitHub Pages environments that serve from `gh-pages`.
+- Kept the GitHub Actions Pages workflow at `.github/workflows/pages.yml` as the primary route.
+- Updated this status file so future cycles treat public hosting as a live blocker, not merely an unverified assumption.
 
 ## Primary deployment route
 GitHub Pages via `.github/workflows/pages.yml`.
 
-## Fallback deployment route
-If GitHub Pages cannot be verified/activated, use the runbook in `README_DEPLOY.md` to deploy the same static root package through Netlify, Vercel, or Cloudflare Pages. Record any provider-confirmed public URL here and in `/memories/nova-holdings-owned-assets.md` before calling the site live.
+Workflow file expected path:
 
-## Status
-The production website files are uploaded to the public GitHub repository on `main`, and a GitHub Pages Actions workflow exists. The latest commits to `main` should trigger a Pages deployment when Pages is correctly configured.
+- `.github/workflows/pages.yml`
 
-Public URL/product paths remain **expected but not independently live-verified** in this run. Do not claim the public URL or product paths are confirmed live until a deployment/status tool or live URL-check tool verifies them.
+Workflow uses:
+
+- `actions/configure-pages@v5`
+- `actions/upload-pages-artifact@v3`
+- `actions/deploy-pages@v4`
+
+## Branch-source fallback route
+A `gh-pages` branch now exists and mirrors the `main` static site state at branch creation time. If GitHub Pages is configured to deploy from a branch, use `gh-pages` / root or `main` / root. If Pages is configured for GitHub Actions, keep using the workflow route.
+
+## Alternate provider fallback route
+If GitHub Pages remains unavailable or returns 404 after a later check, deploy the static repository root through one of the included fallback providers:
+
+- Netlify: build command empty, publish directory `.`
+- Vercel: static/other framework, build command empty, output directory `.`
+- Cloudflare Pages: static HTML, build command empty, output directory `.`
+
+Only record a provider URL as live after the provider returns a public URL and a live URL check verifies expected NOVA page content.
+
+## Verification checklist before calling the site live
+
+- Verify the homepage returns a successful response and contains NOVA HOLDINGS content.
+- Verify `start-here.html` returns a successful response.
+- Verify active route pages such as `audit-reply-handling.html`, `sprint-fit-check.html`, and `ops-fit-check.html` return successful responses before using them in public CTAs.
+- Verify no page promises guaranteed revenue, leads, replies, rankings, followers, AI recommendations, conversion lift, ROI, or financial outcomes.
+- Verify payment language remains behind fit, scope, no-guarantee boundaries, and explicit buyer intent.
+
+## Latest deployment/file actions
+
+- 2026-10-03 10:45 live URL check returned 404 for homepage, AUDIT Reply Handling, and OPS Fit-Check.
+- 2026-10-03 10:45 `gh-pages` branch created from `main` at `31c5d1f05624d77201920d502c19dffc90eece97`.
+- 2026-10-03 10:31 Website Deployment Check confirmed repository files and workflow were present.
+- 2026-10-03 10:31 `README_DEPLOY.md` deployment runbook created.
+- 2026-10-03 10:15 `ops-fit-check.html` OPS Enterprise Fit-Check Scorecard uploaded.
+- 2026-10-03 10:30 `audit-reply-handling.html` AUDIT Reply Handling Playbook uploaded.
 
 ## Commercial safety boundary
 NOVA HOLDINGS content is for business development, digital product creation, route-first acquisition diagnostics, and growth-system execution. No guaranteed revenue, investment return, lead volume, meetings, replies, followers, conversion lift, AI ranking, AI recommendation, ROI, or financial outcome is promised. Payment instructions are only provided after qualification, scope clarity, no-guarantee boundaries, and explicit buyer intent.
