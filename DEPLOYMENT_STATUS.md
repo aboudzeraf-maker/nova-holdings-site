@@ -1,18 +1,19 @@
 # Deployment Status
 
 ## Current verified public status
-Last broad live URL verification: **2026-10-03 11:46 UTC** using `read_url_content`.
+Last live URL verification: **2026-10-03 12:48 UTC** using `read_url_content`.
 
-Verified live NOVA HTML was returned for homepage, Start Here, SPRINT fit-check/reply-handling, AUDIT, Route-First, SOURCE, SCORE, FILTER, VISIBILITY intake, profile-conversion, research-before-outreach, product ladder routes, and trust/evidence/proof routes listed in `/memories/nova-public-url-verification-log.md`.
+Verified live NOVA HTML was returned for homepage, Start Here, SPRINT fit-check/reply/readiness/client-input/objection/proposal routes, AUDIT, Route-First, Landing Page Route Audit, SOURCE, SCORE, FILTER, VISIBILITY, profile-conversion, research-before-outreach, product ladder routes, trust/evidence/proof routes, SOURCE/profile/VISUAL/GROWTH delivery/VISIBILITY support routes listed in `/memories/nova-public-url-verification-log.md`.
 
 ## Newly added route
-2026-10-03 12:00 UTC:
+2026-10-03 12:45 UTC:
 
-- Added `sprint-proposal-confirmation.html` as the NOVA Revenue Sprint Proposal + Scope Confirmation route.
-- Updated `sitemap.xml` on both `main` and `gh-pages` to include the new route.
-- Expected public URL: `https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-proposal-confirmation.html`
-- Immediate `read_url_content` check at 2026-10-03 12:01 UTC returned **404 Not Found** after the `main` upload, so the route must not be claimed live until a later check verifies expected NOVA content.
-- Safe fallback executed: the route and sitemap were also pushed to `gh-pages` at 2026-10-03 12:04 UTC in case Pages is serving the branch source.
+- Added `landing-page-route-audit.html` as the NOVA Landing Page Route Audit diagnostic route.
+- Purpose: diagnose AI landing page / offer page conversion leaks across buyer clarity, proof/source, CTA, payment-order safety, and follow-up before more traffic or a paid pitch.
+- Added the page to `main` and `gh-pages`.
+- Updated `gh-pages` `sitemap.xml` to include the route.
+- Public URL: `https://aboudzeraf-maker.github.io/nova-holdings-site/landing-page-route-audit.html`
+- Initial public check returned 404 immediately after upload, then a later `read_url_content` check returned expected NOVA Landing Page Route Audit HTML. The route is live-verified as of 12:48 UTC.
 
 ## Repository
 https://github.com/aboudzeraf-maker/nova-holdings-site
@@ -28,7 +29,7 @@ Current status: **GitHub Pages is live for verified routes; newly added or unche
 GitHub Pages via `.github/workflows/pages.yml` when configured for Actions.
 
 ## Branch-source fallback route
-A `gh-pages` branch exists. The SPRINT proposal confirmation route was added there as a fallback in case Pages is configured for branch-source deployment.
+A `gh-pages` branch exists. The latest fast-public route additions are also pushed there in case Pages is configured for branch-source deployment.
 
 ## Verification checklist before calling a route live
 
@@ -39,6 +40,10 @@ A `gh-pages` branch exists. The SPRINT proposal confirmation route was added the
 
 ## Latest deployment/file actions
 
+- 2026-10-03 12:48 public check for `landing-page-route-audit.html` returned live NOVA HTML.
+- 2026-10-03 12:47 `gh-pages` `sitemap.xml` updated with `landing-page-route-audit.html`.
+- 2026-10-03 12:46 `landing-page-route-audit.html` uploaded to `main` and `gh-pages`.
+- 2026-10-03 12:05 `sprint-proposal-confirmation.html` verified live after `gh-pages` fallback.
 - 2026-10-03 12:04 `sprint-proposal-confirmation.html` uploaded to `gh-pages` fallback branch.
 - 2026-10-03 12:04 `gh-pages` `sitemap.xml` updated with the SPRINT proposal confirmation route.
 - 2026-10-03 12:01 immediate public check for `sprint-proposal-confirmation.html` returned 404 after `main` upload.
