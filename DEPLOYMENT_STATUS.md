@@ -6,12 +6,31 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 ## Expected public URL
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
-## Latest content version
-2026-10-03 10:15 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 28, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 10:00 UTC returned 0 confirmed signals. Direct searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 10:00 UTC returned 0 posts/signals. AUDIT post `2106323744931062011`, SPRINT post `2106304975370428423`, and route-first post `2106286037727117320` all showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes. Public posting was held because the AUDIT post was only about 14 minutes old and no confirmed engagement required reply handling. Safe fallback: created and uploaded `ops-fit-check.html` as the NOVA OPS Enterprise Fit-Check Scorecard and updated `sitemap.xml`. This prepares confirmed OPS/SYSTEM/revenue-operations interest for a 9-question fit-check and 0–10 enterprise readiness score before any proposal, pricing, PayPal instruction, contract/invoice, or product-specific pitch.
+## Latest deployment check
+2026-10-03 10:31 UTC Website Deployment Check.
 
-Public URL/product paths remain expected but not independently live-verified by a live URL-check tool.
+- GitHub repository access confirmed through the GitHub tools.
+- Repository is public, active, and uses `main` as the default branch.
+- Root directory contains 54 entries including `index.html`, `start-here.html`, product/route pages, `robots.txt`, `sitemap.xml`, `.nojekyll`, `netlify.toml`, `vercel.json`, `README.md`, `DEPLOYMENT_STATUS.md`, and `.github/workflows/pages.yml`.
+- GitHub Pages workflow exists at `.github/workflows/pages.yml` and uses `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`.
+- `README_DEPLOY.md` was added as the primary deployment and fallback runbook.
+- `README.md` was updated to link the deployment runbook and to make the public-status rule explicit.
+- These pushes to `main` should re-trigger the GitHub Pages workflow if Pages is configured for GitHub Actions.
+- No GitHub Pages/status tool in this run returned a confirmed public `page_url`, and no live URL-check/fetch tool was available. Public URL status remains **expected, not independently live-verified**.
+
+## Latest deployment commits
+- 2026-10-03 10:31 `README_DEPLOY.md` deployment runbook created: `188c0df4c5d8342f4c9376598a46f770c3a53e5a`
+- 2026-10-03 10:31 `README.md` deployment status rule update: `b58a59b7af766259e487c87114293950462a55c5`
+- 2026-10-03 10:15 `ops-fit-check.html` OPS Enterprise Fit-Check Scorecard: `ba5687fb4b27b0f95730b40ff2a4d682f166a2a0`
+- 2026-10-03 10:15 `sitemap.xml` OPS Fit-Check route update: `45f09e37397de3ad8572e43cb40fc9cb30f83765`
+- 2026-10-03 09:45 `sprint-objection-response.html` Revenue Sprint Objection Response Bank: `eebfa7db449aa2d90592779906054e84a5aab532`
+- 2026-10-03 09:31 `sprint-client-input.html` Revenue Sprint Client Input Worksheet: `d79888d85d1753e8770a96805147f1ebba915987`
+- 2026-10-03 09:15 `sprint-readiness-pack.html` Revenue Sprint Readiness Pack: `fac0a34e93d300cda513413030c09cc7b06137a4`
+- 2026-10-03 09:00 `sprint-reply-handling.html` Revenue Sprint Reply Handling Playbook: `aa77be8c96f4887af590ad26b95f3c5dda8abb15`
 
 ## Expected public product paths
+These paths are expected from the GitHub Pages repository route, but remain unconfirmed until a deployment/status or live URL-check tool verifies them.
+
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
 - NOVA Revenue Sprint Fit-Check: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-fit-check.html
@@ -60,72 +79,29 @@ Public URL/product paths remain expected but not independently live-verified by 
 - Profile Conversion Audit Delivery Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit-delivery.html
 
 ## Files deployed / maintained
-- index.html
-- start-here.html
-- sprint-fit-check.html
-- sprint-reply-handling.html
-- sprint-readiness-pack.html
-- sprint-client-input.html
-- sprint-objection-response.html
-- route-first-diagnostic.html
-- route-first-reply-handling.html
-- source-credibility-scorecard.html
-- source-credibility-ledger.html
-- source-credibility-reply-handling.html
-- source-credibility-micro-audit.html
-- proof-verification-burden.html
-- evidence-route-qa.html
-- evidence-map.html
-- evidence-reply-handling.html
-- evidence-to-answer-pack.html
-- evidence-question-bank.html
-- evidence-to-route-matrix.html
-- trust-route-checklist.html
-- trust-route-reply-handling.html
-- trust-route-micro-audit.html
-- profile-conversion-kit.html
-- profile-funnel-scorecard.html
-- profile-funnel-reply-handling.html
-- research-before-outreach.html
-- visibility-snapshot.html
-- visibility-intake.html
-- visibility-objection-response.html
-- visibility-micro-snapshot.html
-- growth-sprint.html
-- growth-sprint-delivery.html
-- proof-to-pipeline.html
-- templates.html
-- signal-brief.html
-- filter-kit.html
-- filter-validation.html
-- filter-reply-handling.html
-- score-reply-handling.html
-- builder.html
-- builder-validation.html
-- ops-fit-check.html
-- visual-launch-kit.html
-- profile-audit.html
-- profile-audit-delivery.html
-- robots.txt
-- sitemap.xml
-- .nojekyll
-- README.md
-- netlify.toml
-- vercel.json
-- .github/workflows/pages.yml
-- DEPLOYMENT_STATUS.md
+- `index.html`
+- `start-here.html`
+- route/product HTML pages listed in `sitemap.xml`
+- `robots.txt`
+- `sitemap.xml`
+- `.nojekyll`
+- `README.md`
+- `README_DEPLOY.md`
+- `DEPLOYMENT_STATUS.md`
+- `netlify.toml`
+- `vercel.json`
+- `.github/workflows/pages.yml`
 
-## Latest deployment commits
-- 2026-10-03 10:15 ops-fit-check.html OPS Enterprise Fit-Check Scorecard: ba5687fb4b27b0f95730b40ff2a4d682f166a2a0
-- 2026-10-03 10:15 sitemap.xml OPS Fit-Check route update: 45f09e37397de3ad8572e43cb40fc9cb30f83765
-- 2026-10-03 09:45 sprint-objection-response.html Revenue Sprint Objection Response Bank: eebfa7db449aa2d90592779906054e84a5aab532
-- 2026-10-03 09:45 sitemap.xml Sprint Objection Response route update: efbf0a2a7392021df234d40fa0afec862d301334
-- 2026-10-03 09:31 sprint-client-input.html Revenue Sprint Client Input Worksheet: d79888d85d1753e8770a96805147f1ebba915987
-- 2026-10-03 09:15 sprint-readiness-pack.html Revenue Sprint Readiness Pack: fac0a34e93d300cda513413030c09cc7b06137a4
-- 2026-10-03 09:00 sprint-reply-handling.html Revenue Sprint Reply Handling Playbook: aa77be8c96f4887af590ad26b95f3c5dda8abb15
-- 2026-10-03 08:46 X SPRINT soft-CTA post: 2106304975370428423
+## Primary deployment route
+GitHub Pages via `.github/workflows/pages.yml`.
+
+## Fallback deployment route
+If GitHub Pages cannot be verified/activated, use the runbook in `README_DEPLOY.md` to deploy the same static root package through Netlify, Vercel, or Cloudflare Pages. Record any provider-confirmed public URL here and in `/memories/nova-holdings-owned-assets.md` before calling the site live.
 
 ## Status
-The production website files are uploaded to the `main` branch and a GitHub Pages Actions workflow exists for static deployment.
+The production website files are uploaded to the public GitHub repository on `main`, and a GitHub Pages Actions workflow exists. The latest commits to `main` should trigger a Pages deployment when Pages is correctly configured.
 
-Public URL status is still not independently verified by a live URL-check tool in this run. Do not claim the public URL or product paths are confirmed live until a live URL-check tool or provider status verifies them. If the public URL does not open after GitHub Actions completes, verify GitHub Pages settings for this repository and set the source to GitHub Actions or main branch root.
+Public URL/product paths remain **expected but not independently live-verified** in this run. Do not claim the public URL or product paths are confirmed live until a deployment/status tool or live URL-check tool verifies them.
+
+## Commercial safety boundary
+NOVA HOLDINGS content is for business development, digital product creation, route-first acquisition diagnostics, and growth-system execution. No guaranteed revenue, investment return, lead volume, meetings, replies, followers, conversion lift, AI ranking, AI recommendation, ROI, or financial outcome is promised. Payment instructions are only provided after qualification, scope clarity, no-guarantee boundaries, and explicit buyer intent.
