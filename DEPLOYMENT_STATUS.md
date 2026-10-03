@@ -11,14 +11,18 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 - GitHub repository access confirmed through the GitHub tools.
 - Repository is public, active, and uses `main` as the default branch.
-- Root directory contains 54 entries including `index.html`, `start-here.html`, product/route pages, `robots.txt`, `sitemap.xml`, `.nojekyll`, `netlify.toml`, `vercel.json`, `README.md`, `DEPLOYMENT_STATUS.md`, and `.github/workflows/pages.yml`.
+- Root directory contains 56 entries including `index.html`, `start-here.html`, product/route pages, `audit-reply-handling.html`, `README_DEPLOY.md`, `robots.txt`, `sitemap.xml`, `.nojekyll`, `netlify.toml`, `vercel.json`, `README.md`, `DEPLOYMENT_STATUS.md`, and `.github/workflows/pages.yml`.
 - GitHub Pages workflow exists at `.github/workflows/pages.yml` and uses `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`.
 - `README_DEPLOY.md` was added as the primary deployment and fallback runbook.
 - `README.md` was updated to link the deployment runbook and to make the public-status rule explicit.
+- `sitemap.xml` was updated to include `audit-reply-handling.html` after the AUDIT reply-handling route appeared in the repository.
 - These pushes to `main` should re-trigger the GitHub Pages workflow if Pages is configured for GitHub Actions.
 - No GitHub Pages/status tool in this run returned a confirmed public `page_url`, and no live URL-check/fetch tool was available. Public URL status remains **expected, not independently live-verified**.
 
 ## Latest deployment commits
+- 2026-10-03 10:35 `sitemap.xml` AUDIT reply-handling route added: `41874e66353672710f0b9183c19942c8298ba9bf`
+- 2026-10-03 10:32 `DEPLOYMENT_STATUS.md` deployment check update: `a674e99f6fdcd17755a57b426b64e678b2be590e`
+- 2026-10-03 10:31 `audit-reply-handling.html` AUDIT Reply Handling Playbook page observed in repo history: `55d69174e854ad0261b167f043d9cd99771d27ab`
 - 2026-10-03 10:31 `README_DEPLOY.md` deployment runbook created: `188c0df4c5d8342f4c9376598a46f770c3a53e5a`
 - 2026-10-03 10:31 `README.md` deployment status rule update: `b58a59b7af766259e487c87114293950462a55c5`
 - 2026-10-03 10:15 `ops-fit-check.html` OPS Enterprise Fit-Check Scorecard: `ba5687fb4b27b0f95730b40ff2a4d682f166a2a0`
@@ -38,6 +42,7 @@ These paths are expected from the GitHub Pages repository route, but remain unco
 - NOVA Revenue Sprint Readiness Pack: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html
 - NOVA Revenue Sprint Client Input Worksheet: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-client-input.html
 - NOVA Revenue Sprint Objection Response Bank: https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-objection-response.html
+- NOVA AUDIT Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/audit-reply-handling.html
 - NOVA Route-First Acquisition Diagnostic: https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html
 - NOVA Route-First Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-reply-handling.html
 - NOVA SOURCE Credibility Readiness Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html
@@ -82,6 +87,7 @@ These paths are expected from the GitHub Pages repository route, but remain unco
 - `index.html`
 - `start-here.html`
 - route/product HTML pages listed in `sitemap.xml`
+- `audit-reply-handling.html`
 - `robots.txt`
 - `sitemap.xml`
 - `.nojekyll`
