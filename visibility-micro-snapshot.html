@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVA VISIBILITY Micro-Snapshot Delivery Template</title>
+  <meta name="description" content="A no-guarantee VISIBILITY micro-snapshot delivery template for confirmed NOVA HOLDINGS LinkedIn/X responses." />
+  <style>
+    :root {
+      --bg: #07111f;
+      --panel: #0e1b2e;
+      --panel-2: #13243b;
+      --text: #eef6ff;
+      --muted: #a9bbd3;
+      --line: rgba(255,255,255,0.12);
+      --accent: #59d7ff;
+      --accent-2: #9dffb0;
+      --warn: #ffd166;
+      --danger: #ff8f8f;
+      --shadow: 0 24px 70px rgba(0,0,0,0.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top left, rgba(89,215,255,0.18), transparent 32%), linear-gradient(135deg, #07111f 0%, #0a1322 55%, #03070d 100%);
+      line-height: 1.6;
+    }
+    main { max-width: 1120px; margin: 0 auto; padding: 48px 20px 72px; }
+    .hero {
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(14,27,46,0.92), rgba(19,36,59,0.78));
+      box-shadow: var(--shadow);
+      border-radius: 28px;
+      padding: 36px;
+      overflow: hidden;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -120px -160px auto;
+      width: 360px;
+      height: 360px;
+      background: radial-gradient(circle, rgba(157,255,176,0.16), transparent 65%);
+      pointer-events: none;
+    }
+    .eyebrow { color: var(--accent-2); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: .78rem; }
+    h1 { font-size: clamp(2.15rem, 5vw, 4.4rem); line-height: 0.98; margin: 12px 0 18px; letter-spacing: -0.055em; }
+    h2 { font-size: clamp(1.45rem, 3vw, 2.2rem); margin: 0 0 14px; letter-spacing: -0.03em; }
+    h3 { margin: 0 0 10px; font-size: 1.08rem; }
+    p, li { color: var(--muted); }
+    .hero p { max-width: 760px; font-size: 1.08rem; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin-top: 22px; }
+    .card {
+      grid-column: span 6;
+      border: 1px solid var(--line);
+      background: rgba(14,27,46,0.82);
+      border-radius: 22px;
+      padding: 22px;
+      box-shadow: 0 14px 40px rgba(0,0,0,0.22);
+    }
+    .card.full { grid-column: 1 / -1; }
+    .card.third { grid-column: span 4; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(89,215,255,0.08);
+      color: var(--accent);
+      font-weight: 800;
+      font-size: .78rem;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .steps { counter-reset: step; list-style: none; padding: 0; margin: 0; }
+    .steps li {
+      counter-increment: step;
+      display: grid;
+      grid-template-columns: 38px 1fr;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .steps li:last-child { border-bottom: 0; }
+    .steps li::before {
+      content: counter(step);
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: rgba(89,215,255,0.13);
+      color: var(--accent);
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+    }
+    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 16px; font-size: .95rem; }
+    th, td { border-bottom: 1px solid var(--line); padding: 12px; vertical-align: top; text-align: left; }
+    th { color: var(--text); background: rgba(89,215,255,0.08); }
+    td { color: var(--muted); }
+    .template {
+      background: #07101d;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      color: #d8e9ff;
+      white-space: pre-wrap;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: .92rem;
+    }
+    .good { color: var(--accent-2); }
+    .warn { color: var(--warn); }
+    .danger { color: var(--danger); }
+    .footer { margin-top: 28px; color: var(--muted); font-size: .93rem; }
+    @media (max-width: 820px) {
+      .hero { padding: 24px; }
+      .card, .card.third { grid-column: 1 / -1; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="eyebrow">NOVA HOLDINGS · VISIBILITY RESPONSE SYSTEM</div>
+      <h1 id="title">Micro-Snapshot Delivery Template</h1>
+      <p>A controlled response asset for confirmed VISIBILITY comments or DMs. It converts a 5-question intake into a practical clarity and trust snapshot without payment-first language, AI ranking promises, fake proof, or guaranteed outcomes.</p>
+      <div class="grid">
+        <div class="card third"><span class="badge">Use after confirmation</span><p>Only after a tool-confirmed or owner-confirmed VISIBILITY comment, DM, or inquiry.</p></div>
+        <div class="card third"><span class="badge">One route first</span><p>Recommend exactly one next step: SCORE, ROUTE, PROFILE, PROOF, KIT, VISIBILITY, SPRINT, GROWTH, or SYSTEM.</p></div>
+        <div class="card third"><span class="badge">No guarantees</span><p>No ranking, reach, leads, replies, followers, revenue, conversion lift, or AI recommendation promises.</p></div>
+      </div>
+    </section>
+
+    <section class="grid" aria-label="Operating system">
+      <article class="card">
+        <h2>Confirmed-signal gate</h2>
+        <ul>
+          <li>The VISIBILITY signal is confirmed by a tool or by the owner.</li>
+          <li>The prospect answered enough of the 5-question intake.</li>
+          <li>The response can recommend one first route, not the full portfolio.</li>
+          <li>CRM/dashboard updates use verified counts only.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Required intake</h2>
+        <ol>
+          <li>What do you sell?</li>
+          <li>Who is the buyer?</li>
+          <li>Where should a prospect learn about it?</li>
+          <li>What proof or trust signal exists today?</li>
+          <li>What next step should a qualified buyer take?</li>
+        </ol>
+      </article>
+
+      <article class="card full">
+        <h2>0–20 scoring model</h2>
+        <table>
+          <thead><tr><th>Dimension</th><th>0</th><th>1–2</th><th>3</th><th>4</th></tr></thead>
+          <tbody>
+            <tr><td>Buyer clarity</td><td>No clear buyer</td><td>Broad audience</td><td>Specific segment</td><td>Specific buyer + urgent context</td></tr>
+            <tr><td>Offer clarity</td><td>No offer</td><td>Vague service/product</td><td>Clear offer area</td><td>Clear offer + scope + next step</td></tr>
+            <tr><td>Proof/trust path</td><td>No proof/process</td><td>Weak claims only</td><td>Some examples/process</td><td>Strong ethical evidence path</td></tr>
+            <tr><td>Public asset clarity</td><td>No asset</td><td>Confusing asset</td><td>Explains basics</td><td>Links buyer, offer, proof, CTA fast</td></tr>
+            <tr><td>Next-step clarity</td><td>No next step</td><td>Vague CTA</td><td>Clear CTA</td><td>Clear CTA + qualification boundary</td></tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="card full">
+        <h2>Delivery structure</h2>
+        <ol class="steps">
+          <li><div><strong>Snapshot score:</strong> score 0–20 and explain it in one plain-language sentence.</div></li>
+          <li><div><strong>Top visibility leak:</strong> choose one bottleneck only.</div></li>
+          <li><div><strong>Trust-route note:</strong> explain what buyers or AI-assisted discovery may misunderstand.</div></li>
+          <li><div><strong>First fix:</strong> give one specific practical improvement.</div></li>
+          <li><div><strong>Recommended first route:</strong> pick one NOVA route only.</div></li>
+          <li><div><strong>Safe next question:</strong> ask one question; do not ask for payment.</div></li>
+          <li><div><strong>Boundary:</strong> include the no-guarantee language.</div></li>
+        </ol>
+      </article>
+
+      <article class="card">
+        <h2>Score-band routing</h2>
+        <p><strong class="warn">0–5:</strong> SCORE or ROUTE. Too unclear for paid implementation.</p>
+        <p><strong class="warn">6–10:</strong> PROFILE, PROOF, KIT, or VISIBILITY depending on the leak.</p>
+        <p><strong class="good">11–15:</strong> VISIBILITY, PROFILE, PROOF, GROWTH, or SPRINT fit-check.</p>
+        <p><strong class="good">16–20:</strong> SPRINT, GROWTH, or SYSTEM only after explicit buyer intent and scope clarity.</p>
+      </article>
+
+      <article class="card">
+        <h2>Guardrails</h2>
+        <ul>
+          <li>No financial transactions or PayPal instructions in first response.</li>
+          <li>No fake proof, testimonials, screenshots, reviews, or metrics.</li>
+          <li>No spam DMs or unsolicited replies.</li>
+          <li>Max 2 follow-ups over 7 days after confirmed inbound interest.</li>
+        </ul>
+      </article>
+
+      <article class="card full">
+        <h2>Reusable response template</h2>
+        <div class="template">Quick snapshot: [score]/20.
+
+Top leak: [buyer clarity / offer clarity / proof-trust / public asset / next step].
+
+Trust-route note: a buyer or AI-assisted discovery path may misunderstand [specific issue] because [public asset observation].
+
+First fix: [one practical no-guarantee action].
+
+Recommended first route: [one route only].
+
+Next question: [one question that supports the selected route].
+
+Boundary: No ranking, reach, lead, revenue, conversion, follower, reply, or AI recommendation guarantee — this is a clarity and trust snapshot.</div>
+      </article>
+    </section>
+
+    <p class="footer">Status: created during the 2026-10-03 01:15 UTC CEO Growth Pulse as a fallback asset while LinkedIn VISIBILITY remains active and X monitoring remains zero-signal. Public page paths are expected until independently verified.</p>
+  </main>
+</body>
+</html>
