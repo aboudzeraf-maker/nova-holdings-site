@@ -1,51 +1,50 @@
 # NOVA HOLDINGS Deployment Runbook
 
-Last deployment check: 2026-10-03 10:31 UTC
+Last deployment check: **2026-10-03 10:45 UTC**
 
-## Primary deployment target
+## Current public status
+
+Live URL checks on 2026-10-03 10:45 UTC returned **404 Not Found** for:
+
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/`
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/audit-reply-handling.html`
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/ops-fit-check.html`
+
+Use this status wording until a later verification succeeds:
+
+> Repository deployed; GitHub Pages route expected; live public URLs currently return 404 / not confirmed live.
+
+Do **not** claim the website or route pages are live until a URL-check tool successfully opens the public URL and confirms expected NOVA HOLDINGS content, or a deployment/status tool returns a confirmed public `page_url`.
+
+## Repository
 
 - Repository: `aboudzeraf-maker/nova-holdings-site`
 - Branch: `main`
 - Repository visibility: public
 - Expected GitHub Pages URL: `https://aboudzeraf-maker.github.io/nova-holdings-site/`
-- Deployment workflow: `.github/workflows/pages.yml`
+- Primary workflow: `.github/workflows/pages.yml`
 - Workflow mode: static GitHub Pages deploy using `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`
 
-## Current public-status rule
-
-Do **not** claim the website is confirmed live unless one of these happens:
-
-1. A GitHub Pages/Actions deployment tool returns a confirmed public `page_url`, or
-2. A live URL-check/fetch tool successfully opens the public URL and confirms the expected NOVA HOLDINGS page content.
-
-Until then, use: **repo deployed / Pages route expected, not independently live-verified**.
-
-## Files required for primary static deploy
-
-The repository root should contain:
-
-- `index.html`
-- `start-here.html`
-- all active product/route HTML pages
-- `robots.txt`
-- `sitemap.xml`
-- `.nojekyll`
-- `README.md`
-- `README_DEPLOY.md`
-- `DEPLOYMENT_STATUS.md`
-- `netlify.toml`
-- `vercel.json`
-- `.github/workflows/pages.yml`
-
-## GitHub Pages deployment path
+## Primary deployment route: GitHub Actions Pages
 
 1. Keep all static HTML assets in the repository root.
 2. Push to `main`.
 3. The workflow at `.github/workflows/pages.yml` should run on every push to `main`.
-4. If GitHub Pages is enabled with GitHub Actions as the source, the workflow should publish to the expected URL.
-5. If the expected URL does not open, check repository Pages settings and set source to **GitHub Actions**. If Actions is not available, set source to **Deploy from branch: `main` / root** as a fallback.
+4. GitHub Pages must be configured to use **GitHub Actions** as the source for the workflow route.
+5. Verify the public URL using a live URL-check/fetch tool before claiming the site is live.
 
-## Alternate deployment paths
+## Branch-source fallback route
+
+A `gh-pages` branch was created on 2026-10-03 10:45 UTC from `main` commit `31c5d1f05624d77201920d502c19dffc90eece97`.
+
+If the Actions route stays unavailable or returns 404, configure GitHub Pages to deploy from one of these branch/root sources:
+
+- `gh-pages` / root, or
+- `main` / root.
+
+Then re-run live URL checks before calling the site live.
+
+## Alternate provider fallback routes
 
 Use these only if GitHub Pages cannot be verified or activated.
 
@@ -74,25 +73,34 @@ Use these only if GitHub Pages cannot be verified or activated.
 - Output directory: `.`
 - After Cloudflare Pages returns a public URL, record it in `DEPLOYMENT_STATUS.md` and `/memories/nova-holdings-owned-assets.md`.
 
+## Files required for static deploy
+
+The repository root should contain:
+
+- `index.html`
+- `start-here.html`
+- all active product/route HTML pages
+- `robots.txt`
+- `sitemap.xml`
+- `.nojekyll`
+- `README.md`
+- `README_DEPLOY.md`
+- `DEPLOYMENT_STATUS.md`
+- `netlify.toml`
+- `vercel.json`
+- `.github/workflows/pages.yml`
+
 ## Verification checklist
 
 Before saying the site is live:
 
 - Confirm the deployment provider returned a public URL or a URL-check tool verified the page.
-- Open/verify the homepage expected content.
-- Verify `start-here.html` exists.
+- Verify the homepage opens and contains NOVA HOLDINGS content.
+- Verify `start-here.html` opens.
+- Verify key active route pages open, especially `audit-reply-handling.html`, `sprint-fit-check.html`, and `ops-fit-check.html` before using them in public CTAs.
 - Verify `sitemap.xml` includes newly added route pages.
-- Verify no page promises guaranteed revenue, leads, replies, rankings, followers, AI recommendations, conversion lift, or financial outcomes.
+- Verify no page promises guaranteed revenue, leads, replies, rankings, followers, AI recommendations, conversion lift, ROI, or financial outcomes.
 - Verify payment language remains behind fit, scope, no-guarantee boundaries, and explicit buyer intent.
-
-## Latest check notes — 2026-10-03 10:31 UTC
-
-- GitHub repository access is active and the repository is public.
-- `main` is the default branch.
-- Static site files and GitHub Pages workflow are present.
-- `README_DEPLOY.md` was added as the primary/alternate deployment runbook.
-- The push that adds/updates deployment documentation should re-trigger the Pages workflow.
-- No tool in this run returned a confirmed public `page_url`, and no live URL-check tool was available, so public URL status remains **expected, not independently verified**.
 
 ## Commercial safety boundary
 
