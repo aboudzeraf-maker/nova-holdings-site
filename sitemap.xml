@@ -21,6 +21,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-client-input.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html</loc>
     <priority>0.8</priority>
   </url>
