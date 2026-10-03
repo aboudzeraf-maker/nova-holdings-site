@@ -7,25 +7,25 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-03 06:45 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 25, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 06:30 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 06:30 UTC returned 0 posts/signals. Source-credibility education post `2106267117569896776`, proof-verification-burden post `2106248328027484244`, and repeatable-evidence post `2106229351289172101` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Simple market-listening searches for AI visibility/source credibility and source credibility proof returned 0 recent results. None were counted as leads. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was only about 29 minutes old, zero reach persisted, and no confirmed engagement required reply handling. Safe fallback: created and deployed the SOURCE Credibility Readiness Scorecard as a no-guarantee 40-point diagnostic for mapping buyer-facing claims to evidence objects, source accessibility, verification path, constraints, overclaim risk, and one safe next route before pitch, pricing, PayPal instruction, or product-specific routing. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-03 07:00 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 25, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 06:45 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 06:45 UTC returned 0 posts/signals. Source-credibility education post `2106267117569896776`, proof-verification-burden post `2106248328027484244`, and repeatable-evidence post `2106229351289172101` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Simple market-listening searches for AI visibility/source credibility and source credibility proof returned 0 recent results. None were counted as leads. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was about 44 minutes old at cycle start, zero reach persisted, and no confirmed engagement required reply handling. Safe fallback: refreshed `start-here.html` and `index.html` so the SOURCE Credibility Readiness Scorecard is now linked into the primary SOURCE/social route before Source Ledger, reply handling, micro-audit, Evidence, Trust Route, VISIBILITY, and product-specific routing. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
 - Social Start Here Hub: https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html
-- NOVA Trust Route Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-checklist.html
-- NOVA Trust Route Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-reply-handling.html
-- NOVA Trust Route Micro-Audit Template: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-micro-audit.html
+- NOVA SOURCE Credibility Readiness Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html
+- NOVA Source Credibility Ledger: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-ledger.html
+- NOVA Source Credibility Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-reply-handling.html
+- NOVA Source Credibility Micro-Audit Template: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-micro-audit.html
+- NOVA Proof Verification Burden Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-verification-burden.html
+- NOVA Evidence Route QA Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-route-qa.html
 - NOVA Buyer Evidence Map: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-map.html
 - NOVA Buyer Evidence Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-reply-handling.html
 - NOVA Evidence-to-Answer Pack Validation Page: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-answer-pack.html
 - NOVA Buyer Evidence Question Bank: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-question-bank.html
 - NOVA Evidence-to-Route Matrix: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-route-matrix.html
-- NOVA Proof Verification Burden Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/proof-verification-burden.html
-- NOVA Source Credibility Ledger: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-ledger.html
-- NOVA Source Credibility Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-reply-handling.html
-- NOVA Source Credibility Micro-Audit Template: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-micro-audit.html
-- NOVA SOURCE Credibility Readiness Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html
-- NOVA Evidence Route QA Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-route-qa.html
+- NOVA Trust Route Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-checklist.html
+- NOVA Trust Route Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-reply-handling.html
+- NOVA Trust Route Micro-Audit Template: https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-micro-audit.html
 - NOVA Social Profile Conversion Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html
 - NOVA Profile Funnel Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html
 - NOVA Profile Funnel Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-reply-handling.html
@@ -52,20 +52,20 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 ## Files deployed / maintained
 - index.html
 - start-here.html
-- trust-route-checklist.html
-- trust-route-reply-handling.html
-- trust-route-micro-audit.html
+- source-credibility-scorecard.html
+- source-credibility-ledger.html
+- source-credibility-reply-handling.html
+- source-credibility-micro-audit.html
+- proof-verification-burden.html
+- evidence-route-qa.html
 - evidence-map.html
 - evidence-reply-handling.html
 - evidence-to-answer-pack.html
 - evidence-question-bank.html
 - evidence-to-route-matrix.html
-- proof-verification-burden.html
-- source-credibility-ledger.html
-- source-credibility-reply-handling.html
-- source-credibility-micro-audit.html
-- source-credibility-scorecard.html
-- evidence-route-qa.html
+- trust-route-checklist.html
+- trust-route-reply-handling.html
+- trust-route-micro-audit.html
 - profile-conversion-kit.html
 - profile-funnel-scorecard.html
 - profile-funnel-reply-handling.html
@@ -98,23 +98,15 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-03 07:00 start-here.html SOURCE scorecard routing refresh: 66420486bc7f9640e087a2fe13a97348edff37cd
+- 2026-10-03 07:00 index.html homepage SOURCE scorecard integration: e00027d87604b8446ccaa80ae124ea387af73aff
 - 2026-10-03 06:45 source-credibility-scorecard.html SOURCE Credibility Readiness Scorecard: d5d635ae453043c32943babd5ee204e420549aeb
 - 2026-10-03 06:45 sitemap.xml Source Credibility Scorecard route update: 32ad538279f9ad604f33f13c07626f8556ddbabb
 - 2026-10-03 06:30 index.html homepage SOURCE/source-credibility integration: c4f2cfc1771c15d48bbc81d66f31e17ed5a2575d
 - 2026-10-03 06:00 start-here.html Source Credibility routing refresh: 8db0546dc67e59be707a1997d5c1cec5aa3365ce
 - 2026-10-03 05:45 source-credibility-micro-audit.html Source Credibility Micro-Audit Template: 2623b75963157e18529cd1f1b23c354c9bca13e9
-- 2026-10-03 05:45 sitemap.xml Source Credibility Micro-Audit route update: a4be8891a826aaa671374c34a3fe9a6bf255031d
 - 2026-10-03 05:30 source-credibility-reply-handling.html Source Credibility Reply Handling Playbook: ad4a66954125719c1b3862569cdff2445e538577
 - 2026-10-03 05:16 source-credibility-ledger.html Source Credibility Ledger: 4cf41e094972d71632e28f8450e0550ef0ea4ff4
-- 2026-10-03 04:45 proof-verification-burden.html Proof Verification Burden Checklist: 4c98fa9bf45f7b0deb04b368c81e54d6ba95c8f0
-- 2026-10-03 04:30 evidence-to-route-matrix.html Evidence-to-Route Matrix: 7db17bee7eb6ebb9c13abb5035950e12211674ed
-- 2026-10-03 04:15 evidence-route-qa.html Evidence Route QA Checklist: 2a936c912886fa33d4956256e49caff22523eb4b
-- 2026-10-03 04:00 evidence-question-bank.html Buyer Evidence Question Bank: 07852fd9832e412490abec184723ae24b3a3d739
-- 2026-10-03 03:15 index.html homepage evidence-route integration: b0c0279948fb1614a1f7a0265b04e8a7bdcf6bf5
-- 2026-10-03 03:15 start-here.html social Start Here evidence-route integration: 7ee1ec1462b7e2a542be95549ae376e663dd4532
-- 2026-10-03 03:00 evidence-to-answer-pack.html Evidence-to-Answer Pack Validation Page: 8eae82357ea99de9dfbccb08b6b4c8dfe4139444
-- 2026-10-03 02:45 evidence-reply-handling.html Buyer Evidence Reply Handling Playbook: 33ed3d6503a5437f662f37f4d413b62676665a10
-- 2026-10-03 02:30 evidence-map.html Buyer Evidence Map: fe80b1fefed5c2c1375af5d142c763e858e4df0e
 
 ## Status
 The production website files are uploaded to the `main` branch and a GitHub Pages Actions workflow exists for static deployment.
