@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-03 04:15 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 23, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 04:00 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 04:00 UTC returned 0 posts/signals. Repeatable-evidence post `2106229351289172101`, evidence-route post `2106210855050223798`, and trust-route post `2106195511715733793` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was about 29 minutes old and no confirmed engagement required a reply. Safe fallback: created and uploaded `evidence-route-qa.html`, added it to `sitemap.xml`, and created local/memory QA assets so future EVIDENCE/proof/trust-gap/VISIBILITY/profile signals pass a confirmed-signal, one-route-first, CRM/dashboard, and no-payment/no-guarantee check before any product pitch or payment language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-03 04:30 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 23, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 04:15 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 04:15 UTC returned 0 posts/signals. Repeatable-evidence post `2106229351289172101`, evidence-route post `2106210855050223798`, and trust-route post `2106195511715733793` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was about 44 minutes old, under the safer 60-minute window, and zero reach persisted. Safe fallback: created and uploaded `evidence-to-route-matrix.html`, added it to `sitemap.xml`, and linked it from `start-here.html` so confirmed evidence/proof/trust-gap/VISIBILITY/profile/SCORE/ROUTE/product-route signals can be mapped to exactly one next route before any pitch, pricing, PayPal instruction, or guarantee-like language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -19,6 +19,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - NOVA Buyer Evidence Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-reply-handling.html
 - NOVA Evidence-to-Answer Pack Validation Page: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-answer-pack.html
 - NOVA Buyer Evidence Question Bank: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-question-bank.html
+- NOVA Evidence-to-Route Matrix: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-route-matrix.html
 - NOVA Evidence Route QA Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-route-qa.html
 - NOVA Social Profile Conversion Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html
 - NOVA Profile Funnel Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html
@@ -53,6 +54,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - evidence-reply-handling.html
 - evidence-to-answer-pack.html
 - evidence-question-bank.html
+- evidence-to-route-matrix.html
 - evidence-route-qa.html
 - profile-conversion-kit.html
 - profile-funnel-scorecard.html
@@ -86,6 +88,9 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-03 04:30 evidence-to-route-matrix.html Evidence-to-Route Matrix: 7db17bee7eb6ebb9c13abb5035950e12211674ed
+- 2026-10-03 04:30 sitemap.xml Evidence-to-Route Matrix route update: 6bfdf0b85e3240972f0810b5da4fa0348a45beb5
+- 2026-10-03 04:30 start-here.html Evidence-to-Route Matrix routing: e5cf4d5942b40230cccb89a6230dd6a98cd970e5
 - 2026-10-03 04:15 evidence-route-qa.html Evidence Route QA Checklist: 2a936c912886fa33d4956256e49caff22523eb4b
 - 2026-10-03 04:15 sitemap.xml Evidence Route QA route update: cf9dc82e5d3a8967d9342562b3721dfb0ed0fda0
 - 2026-10-03 04:00 evidence-question-bank.html Buyer Evidence Question Bank: 07852fd9832e412490abec184723ae24b3a3d739
