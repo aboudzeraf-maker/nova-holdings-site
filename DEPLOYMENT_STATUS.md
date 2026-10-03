@@ -7,7 +7,7 @@ https://github.com/aboudzeraf-maker/nova-holdings-site
 https://aboudzeraf-maker.github.io/nova-holdings-site/
 
 ## Latest content version
-2026-10-03 06:30 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 25, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 06:16 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 06:16 UTC returned 0 posts/signals. Source-credibility education post `2106267117569896776`, proof-verification-burden post `2106248328027484244`, and repeatable-evidence post `2106229351289172101` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Simple market-listening searches for AI visibility/source credibility and source credibility proof returned only NOVA's own latest post; buyer proof/evidence/trust returned 0 recent results. None were counted as leads. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was only about 14 minutes old, zero reach persisted, and no confirmed engagement required reply handling. Safe fallback: `index.html` homepage was refreshed to foreground SOURCE/source-credibility routing before evidence, trust, visibility, and product-specific routes. The homepage now links Source Credibility Ledger, Source Credibility Reply Handling, Source Credibility Micro-Audit, and Proof Verification Burden Checklist before pitch, pricing, PayPal instruction, or guarantee-like language. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
+2026-10-03 06:45 UTC CEO Growth Pulse: schedule remained enabled at `*/15 * * * *` UTC. X monitoring ran first. `x_get_me` verified @NOVAHOLD_ING with tweet_count 25, followers_count 0, following_count 0, empty profile description, and default profile image. Mentions from 06:30 UTC returned 0 confirmed signals. Direct account searches for `@NOVAHOLD_ING`, `to:NOVAHOLD_ING`, and `NOVAHOLD_ING` from 06:30 UTC returned 0 posts/signals. Source-credibility education post `2106267117569896776`, proof-verification-burden post `2106248328027484244`, and repeatable-evidence post `2106229351289172101` each showed 0 impressions, 0 likes, 0 replies, 0 reposts, and 0 quotes at read time. Simple market-listening searches for AI visibility/source credibility and source credibility proof returned 0 recent results. None were counted as leads. LinkedIn VISIBILITY post `urn:li:share:7511938349583192064` remains the active professional-channel test, but no LinkedIn comment/DM read tool is available in the current runtime. Public posting was held because the latest X post was only about 29 minutes old, zero reach persisted, and no confirmed engagement required reply handling. Safe fallback: created and deployed the SOURCE Credibility Readiness Scorecard as a no-guarantee 40-point diagnostic for mapping buyer-facing claims to evidence objects, source accessibility, verification path, constraints, overclaim risk, and one safe next route before pitch, pricing, PayPal instruction, or product-specific routing. Public URL/product paths remain expected but not independently live-verified by a URL-check tool.
 
 ## Expected public product paths
 - Homepage: https://aboudzeraf-maker.github.io/nova-holdings-site/
@@ -24,6 +24,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - NOVA Source Credibility Ledger: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-ledger.html
 - NOVA Source Credibility Reply Handling Playbook: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-reply-handling.html
 - NOVA Source Credibility Micro-Audit Template: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-micro-audit.html
+- NOVA SOURCE Credibility Readiness Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html
 - NOVA Evidence Route QA Checklist: https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-route-qa.html
 - NOVA Social Profile Conversion Kit: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html
 - NOVA Profile Funnel Scorecard: https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html
@@ -63,6 +64,7 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - source-credibility-ledger.html
 - source-credibility-reply-handling.html
 - source-credibility-micro-audit.html
+- source-credibility-scorecard.html
 - evidence-route-qa.html
 - profile-conversion-kit.html
 - profile-funnel-scorecard.html
@@ -96,6 +98,8 @@ https://aboudzeraf-maker.github.io/nova-holdings-site/
 - DEPLOYMENT_STATUS.md
 
 ## Latest deployment commits
+- 2026-10-03 06:45 source-credibility-scorecard.html SOURCE Credibility Readiness Scorecard: d5d635ae453043c32943babd5ee204e420549aeb
+- 2026-10-03 06:45 sitemap.xml Source Credibility Scorecard route update: 32ad538279f9ad604f33f13c07626f8556ddbabb
 - 2026-10-03 06:30 index.html homepage SOURCE/source-credibility integration: c4f2cfc1771c15d48bbc81d66f31e17ed5a2575d
 - 2026-10-03 06:00 start-here.html Source Credibility routing refresh: 8db0546dc67e59be707a1997d5c1cec5aa3365ce
 - 2026-10-03 05:45 source-credibility-micro-audit.html Source Credibility Micro-Audit Template: 2623b75963157e18529cd1f1b23c354c9bca13e9
