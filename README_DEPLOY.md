@@ -1,24 +1,24 @@
 # NOVA HOLDINGS Deployment Runbook
 
-Last deployment check: **2026-11-12 00:23 UTC**
+Last deployment check: **2026-11-13 10:30 UTC**
 
 ## Current public status
 
-Live URL checks on 2026-11-12 00:23 UTC using `read_url_content` returned expected NOVA HOLDINGS HTML for:
+Live URL checks on 2026-11-13 10:30 UTC using `read_url_content` returned expected NOVA HOLDINGS content for:
 
-- `https://aboudzeraf-maker.github.io/nova-holdings-site/` — homepage / route-first + SOURCE growth router
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/` — homepage / Route-First + SOURCE growth router
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html` — social Start Here router
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html` — Route-First Acquisition Diagnostic
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html` — SOURCE Credibility Readiness Scorecard
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html` — Revenue Sprint Readiness Pack
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-client-success-proof-loop.html` — First-5 Client Success & Proof Loop
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/sitemap.xml` — sitemap XML including `first-5-client-success-proof-loop.html`
+
+The public `sprint-readiness-pack.html` page now returned the First-5 cross-link in the fetched HTML, so the previously repository-confirmed cross-link is now public-live-verified in this cycle.
 
 Current status wording:
 
 > GitHub Pages is publicly live for the verified NOVA HOLDINGS homepage and checked route pages. Newly added or unchecked routes require individual live URL verification before being called live.
-
-Important non-live check from this cycle:
-
-- `https://aboudzeraf-maker.github.io/nova-holdings-site/nova-revenue-sprint-first-5-client-success-proof-loop.html` returned **404 Not Found**. Treat the First-5 Client Success & Proof Loop as an internal memory asset unless/until it is deliberately packaged, uploaded, and live-verified.
 
 Do **not** claim any new route page is live until a URL-check tool successfully opens the public URL and confirms expected NOVA HOLDINGS content, or a deployment/status tool returns a confirmed public `page_url`.
 
@@ -27,6 +27,7 @@ Do **not** claim any new route page is live until a URL-check tool successfully 
 - Repository: `aboudzeraf-maker/nova-holdings-site`
 - Branch: `main`
 - Repository visibility: public
+- Repository status observed 2026-11-13: active, unarchived, default branch `main`, language HTML
 - Verified public GitHub Pages URL: `https://aboudzeraf-maker.github.io/nova-holdings-site/`
 - Primary workflow: `.github/workflows/pages.yml`
 - Workflow mode: static GitHub Pages deploy using `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`
@@ -41,7 +42,7 @@ Do **not** claim any new route page is live until a URL-check tool successfully 
 
 ## Branch-source fallback route
 
-A `gh-pages` branch exists and has previously been maintained as a branch-source fallback.
+A `gh-pages` branch exists and is maintained as a branch-source fallback for fast public route recovery.
 
 If the Actions route becomes unavailable or returns 404 for a newly added route, use the safe fallback:
 
@@ -79,13 +80,19 @@ Use these only if GitHub Pages cannot be verified or activated.
 - Output directory: `.`
 - After Cloudflare Pages returns a public URL, record it in `DEPLOYMENT_STATUS.md`, `/memories/nova-holdings-owned-assets.md`, and `/memories/nova-public-url-verification-log.md`.
 
-## Files required for static deploy
+## Local/static package restoration
 
-The repository root should contain:
+If the workspace package disappears, restore `/nova-holdings-site/` from the GitHub repository and these persistent memory sources:
+
+- `/memories/nova-holdings-official-website-source.html` for homepage source reference
+- `/memories/nova-social-start-here-hub-source.html` for Start Here source reference
+- `/memories/nova-revenue-sprint-first-5-client-success-proof-loop-page-source.html` for the First-5 route source reference
+
+Minimum package files:
 
 - `index.html`
 - `start-here.html`
-- all active product/route HTML pages
+- active product/route HTML pages
 - `robots.txt`
 - `sitemap.xml`
 - `.nojekyll`
@@ -110,4 +117,4 @@ Before saying the site or a route is live:
 
 ## Commercial safety boundary
 
-NOVA HOLDINGS pages are business-development and digital-product assets. They must not promise guaranteed income, lead volume, meetings, replies, followers, conversion lift, AI ranking, AI recommendation, ROI, or financial outcomes. Payment instructions are only appropriate after fit, scope, no-guarantee boundaries, and explicit buyer intent are clear. Live page availability is not a lead, inquiry, customer, or revenue signal.
+NOVA HOLDINGS pages are business-development and digital-product assets. They must not promise guaranteed income, lead volume, meetings, replies, followers, conversion lift, AI ranking, AI recommendation, ROI, or financial outcomes. Payment instructions are only appropriate after fit, scope, no-guarantee boundaries, and explicit buyer intent are clear. Live page availability is not a lead, inquiry, customer, proof item, referral, or revenue signal.
