@@ -1,20 +1,21 @@
 # NOVA HOLDINGS Deployment Runbook
 
-Last deployment check: **2026-11-13 10:30 UTC**
+Last deployment check: **2026-11-14 10:30 UTC**
 
 ## Current public status
 
-Live URL checks on 2026-11-13 10:30 UTC using `read_url_content` returned expected NOVA HOLDINGS content for:
+Live URL checks on 2026-11-14 10:30 UTC using `read_url_content` returned expected NOVA HOLDINGS content for:
 
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/` — homepage / Route-First + SOURCE growth router
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html` — social Start Here router
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html` — Route-First Acquisition Diagnostic
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html` — SOURCE Credibility Readiness Scorecard
-- `https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html` — Revenue Sprint Readiness Pack
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html` — Revenue Sprint Readiness Pack, including the First-5 Client Success link
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-client-success-proof-loop.html` — First-5 Client Success & Proof Loop
-- `https://aboudzeraf-maker.github.io/nova-holdings-site/sitemap.xml` — sitemap XML including `first-5-client-success-proof-loop.html`
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-delivery-command-center.html` — First-5 Delivery Command Center
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/sitemap.xml` — sitemap XML including both First-5 routes
 
-The public `sprint-readiness-pack.html` page now returned the First-5 cross-link in the fetched HTML, so the previously repository-confirmed cross-link is now public-live-verified in this cycle.
+The public sitemap now includes `first-5-delivery-command-center.html`, so the prior public sitemap propagation/cache concern from 2026-11-13 is resolved for the checked public sitemap.
 
 Current status wording:
 
@@ -25,9 +26,10 @@ Do **not** claim any new route page is live until a URL-check tool successfully 
 ## Repository
 
 - Repository: `aboudzeraf-maker/nova-holdings-site`
-- Branch: `main`
+- Primary branch: `main`
+- Fallback branch: `gh-pages`
 - Repository visibility: public
-- Repository status observed 2026-11-13: active, unarchived, default branch `main`, language HTML
+- Repository status observed 2026-11-14: active repository directory readable through GitHub tools; latest docs refreshed on `main` and `gh-pages`
 - Verified public GitHub Pages URL: `https://aboudzeraf-maker.github.io/nova-holdings-site/`
 - Primary workflow: `.github/workflows/pages.yml`
 - Workflow mode: static GitHub Pages deploy using `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`
@@ -86,7 +88,8 @@ If the workspace package disappears, restore `/nova-holdings-site/` from the Git
 
 - `/memories/nova-holdings-official-website-source.html` for homepage source reference
 - `/memories/nova-social-start-here-hub-source.html` for Start Here source reference
-- `/memories/nova-revenue-sprint-first-5-client-success-proof-loop-page-source.html` for the First-5 route source reference
+- `/memories/nova-revenue-sprint-first-5-client-success-proof-loop-page-source.html` for the First-5 Client Success route source reference
+- `/memories/nova-revenue-sprint-first-5-delivery-command-center-page-source.html` for the First-5 Delivery Command Center source reference
 
 Minimum package files:
 
@@ -99,6 +102,8 @@ Minimum package files:
 - `README.md`
 - `README_DEPLOY.md`
 - `DEPLOYMENT_STATUS.md`
+- `PUBLIC_URL_VERIFICATION.md`
+- `ALT_DEPLOYMENT_RUNBOOK.md`
 - `netlify.toml`
 - `vercel.json`
 - `.github/workflows/pages.yml`
