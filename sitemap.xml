@@ -1,207 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-fit-check.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-reply-handling.html</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-client-input.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-objection-response.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-proposal-confirmation.html</loc>
-    <priority>0.72</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-delivery-command-center.html</loc>
-    <priority>0.69</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-client-success-proof-loop.html</loc>
-    <priority>0.68</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/audit-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/landing-page-route-audit.html</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-checklist.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-micro-audit.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-map.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-answer-pack.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-question-bank.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-route-matrix.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/proof-verification-burden.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-ledger.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-micro-audit.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-route-qa.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-snapshot.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-intake.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-objection-response.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-micro-snapshot.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/research-before-outreach.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint-delivery.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/signal-brief.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/templates.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/filter-kit.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/filter-validation.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/filter-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/score-reply-handling.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/builder.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/builder-validation.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/ops-fit-check.html</loc>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visual-launch-kit.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit-delivery.html</loc>
-    <priority>0.7</priority>
-  </url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html</loc>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-fit-check.html</loc>
+<priority>0.85</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-reply-handling.html</loc>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-client-input.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-objection-response.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-proposal-confirmation.html</loc>
+<priority>0.72</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-delivery-command-center.html</loc>
+<priority>0.69</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-buyer-decision-follow-up.html</loc>
+<priority>0.69</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-client-success-proof-loop.html</loc>
+<priority>0.68</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/audit-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-diagnostic.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/route-first-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/landing-page-route-audit.html</loc>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-conversion-kit.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-scorecard.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-funnel-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-checklist.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/trust-route-micro-audit.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-map.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-answer-pack.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-question-bank.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-to-route-matrix.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/proof-verification-burden.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-ledger.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-micro-audit.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/source-credibility-scorecard.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/evidence-route-qa.html</loc>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-snapshot.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-intake.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-objection-response.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visibility-micro-snapshot.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/research-before-outreach.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/growth-sprint-delivery.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/proof-to-pipeline.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/signal-brief.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/templates.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/filter-kit.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/filter-validation.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/filter-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/score-reply-handling.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/builder.html</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/builder-validation.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/ops-fit-check.html</loc>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/visual-launch-kit.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit.html</loc>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://aboudzeraf-maker.github.io/nova-holdings-site/profile-audit-delivery.html</loc>
+<priority>0.7</priority>
+</url>
 </urlset>
