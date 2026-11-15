@@ -1,10 +1,10 @@
 # NOVA HOLDINGS Deployment Runbook
 
-Last deployment check: **2026-11-14 10:30 UTC**
+Last deployment check: **2026-11-15 10:30 UTC**
 
 ## Current public status
 
-Live URL checks on 2026-11-14 10:30 UTC using `read_url_content` returned expected NOVA HOLDINGS content for:
+Live URL checks on 2026-11-15 10:30 UTC using `read_url_content` returned expected NOVA HOLDINGS content for:
 
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/` — homepage / Route-First + SOURCE growth router
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/start-here.html` — social Start Here router
@@ -13,13 +13,16 @@ Live URL checks on 2026-11-14 10:30 UTC using `read_url_content` returned expect
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/sprint-readiness-pack.html` — Revenue Sprint Readiness Pack, including the First-5 Client Success link
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-client-success-proof-loop.html` — First-5 Client Success & Proof Loop
 - `https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-delivery-command-center.html` — First-5 Delivery Command Center
-- `https://aboudzeraf-maker.github.io/nova-holdings-site/sitemap.xml` — sitemap XML including both First-5 routes
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/first-5-buyer-decision-follow-up.html` — First-5 Buyer Decision Follow-Up Pack
+- `https://aboudzeraf-maker.github.io/nova-holdings-site/sitemap.xml` — sitemap XML including all three First-5 routes
 
-The public sitemap now includes `first-5-delivery-command-center.html`, so the prior public sitemap propagation/cache concern from 2026-11-13 is resolved for the checked public sitemap.
+The public sitemap now includes `first-5-delivery-command-center.html`, `first-5-buyer-decision-follow-up.html`, and `first-5-client-success-proof-loop.html`, so the prior public sitemap propagation/cache concern is resolved for the checked public sitemap.
 
 Current status wording:
 
-> GitHub Pages is publicly live for the verified NOVA HOLDINGS homepage and checked route pages. Newly added or unchecked routes require individual live URL verification before being called live.
+> The existing GitHub Pages URL is publicly reachable for the verified NOVA HOLDINGS homepage and checked route pages. Newly added or unchecked routes require individual live URL verification before being called live.
+
+This check did not receive a new deployment-provider `page_url`; it verified the existing known GitHub Pages URL by fetching public content. Do **not** claim a new deployment occurred unless a deployment/status tool returns a confirmed public URL or a GitHub file update is actually performed.
 
 Do **not** claim any new route page is live until a URL-check tool successfully opens the public URL and confirms expected NOVA HOLDINGS content, or a deployment/status tool returns a confirmed public `page_url`.
 
@@ -29,7 +32,7 @@ Do **not** claim any new route page is live until a URL-check tool successfully 
 - Primary branch: `main`
 - Fallback branch: `gh-pages`
 - Repository visibility: public
-- Repository status observed 2026-11-14: active repository directory readable through GitHub tools; latest docs refreshed on `main` and `gh-pages`
+- Repository status observed 2026-11-15: active public repository metadata readable through GitHub tools; deployment docs refreshed on `main` and `gh-pages`
 - Verified public GitHub Pages URL: `https://aboudzeraf-maker.github.io/nova-holdings-site/`
 - Primary workflow: `.github/workflows/pages.yml`
 - Workflow mode: static GitHub Pages deploy using `actions/configure-pages`, `actions/upload-pages-artifact`, and `actions/deploy-pages`
@@ -90,6 +93,7 @@ If the workspace package disappears, restore `/nova-holdings-site/` from the Git
 - `/memories/nova-social-start-here-hub-source.html` for Start Here source reference
 - `/memories/nova-revenue-sprint-first-5-client-success-proof-loop-page-source.html` for the First-5 Client Success route source reference
 - `/memories/nova-revenue-sprint-first-5-delivery-command-center-page-source.html` for the First-5 Delivery Command Center source reference
+- `/memories/nova-revenue-sprint-first-5-buyer-decision-follow-up-page-source.html` for the First-5 Buyer Decision Follow-Up route source reference
 
 Minimum package files:
 
